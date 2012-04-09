@@ -1,15 +1,14 @@
-körper{
-	schriftgröße:18px;
+körper {
+  schriftgröße: 18px;
 }
 
-ü1{
-	schrifttransormation: hochgestellt;
+ü1 {
+  schrifttransormation: hochgestellt;
 }
 
 artikel {
-	breite: 600px;
-	aussenabstand: automatisch;
-	hintergrund:leichtgrau;
-	innenabstand:2px 10px;
+  breite: 600px;
+  aussenabstand: automatisch;
+  hintergrund: leichtgrau;
+  innenabstand: 2px 10px;
 }
-	

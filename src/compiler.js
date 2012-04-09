@@ -14,6 +14,7 @@ var compiler = exports = module.exports = (function(self){
     }
 
     if (destination) fs.writeFileSync(destination, data);
+    
     return data;
   };
 
