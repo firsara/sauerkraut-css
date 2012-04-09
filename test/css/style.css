@@ -1,4 +1,4 @@
-körper{
+body{
 	schriftgröße:18px;
 }
 
@@ -6,10 +6,10 @@ h1{
 	schrifttransormation: hochgestellt;
 }
 
-artikel {
+article {
 	breite: 600px;
 	aussenabstand: automatisch;
-	hintergrund:leichtgrau;
+	background:leichtgrau;
 	innenabstand:2px 10px;
 }
 	

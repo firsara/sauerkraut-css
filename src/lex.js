@@ -3,17 +3,24 @@ var lex = exports = module.exports = (function(){
   return {
     
     tags: {
-      'ü1': 'h1'
-    , 'ü2': 'h2'
-    , 'ü3': 'h3'
-    , 'ü4': 'h4'
-    , 'ü5': 'h5'
-    , 'ü6': 'h6'
-    , 'körper': 'body'
+      'h1': 'ü1'
+    , 'h2': 'ü2'
+    , 'h3': 'ü3'
+    , 'h4': 'ü4'
+    , 'h5': 'ü5'
+    , 'h6': 'ü6'
+    , 'body': 'körper'
+    , 'article': 'artikel'
     }
 
   , properties: {
-    , 'hintergrund': 'background'
+      'background': 'hintergrund'
+    , 'background-attachment': 'background-attachment'
+    , 'background-color': 'hintergrund-farbe'
+    , 'background-image': 'hintergrund-bild'
+    , 'background-position': 'hintergrund-position'
+    , 'background-repeat': 'hintergrund-wiederholung'
+    , 'border': 'rand'
     }
 
   , values: {

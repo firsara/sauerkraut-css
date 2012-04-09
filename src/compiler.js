@@ -8,7 +8,8 @@ var compiler = exports = module.exports = (function(self){
 
     for (var type in lex){
       for (var key in lex[type]){
-        data = data.replace(key, lex[type][key]);
+        console.log(lex[type][key] + ' -> ' + key)
+        data = data.replace(new RegExp(lex[type][key], 'g'), key);
       }
     }
 
