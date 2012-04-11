@@ -1,4 +1,6 @@
-var lex = exports = module.exports = (function(){
+// lex.js
+// Sauerkraut Lexikon
+var SauerkrautLex = exports = module.exports = (function(){
 
   return {
     

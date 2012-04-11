@@ -1,6 +1,6 @@
 
 all:
-	@node test/compile.js
+	@node build.js
 
 tests:
 	@node test/compile.js

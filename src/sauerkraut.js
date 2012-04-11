@@ -1,9 +1,15 @@
-var Compiler = require('./compiler');
+// sauerkraut.js
+// Sauerkraut General API
+
+var compiler = require('./compiler')
+  , fs = require('fs');
 
 function Sauerkraut(){}
 
 Sauerkraut.prototype.compile = function(source, destination){
-  Compiler.compile(source, destination);
+  var data = fs.readFileSync(source).toString();
+  data = compiler.compile(data);
+  if (destination) fs.writeFileSync(destination, data);
 };
 
 Sauerkraut.prototype.watch = function(source, destination, interval){
