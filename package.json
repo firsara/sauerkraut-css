@@ -6,7 +6,7 @@
   "author"        : "Fabian Irsara <info@fabianirsara.com>",
   "contributors"  : ["Andreas Penz"],
   "version"       : "0.5.0",
-  "bin"           : { "sauerkraut": "./bin/sauerkraut.js" },
+  "bin"           : { "sauerkraut": "./bin/sauerkraut" },
   "main"          : "./src/sauerkraut",
   "directories"   : { "test": "./test" },
   "engines"       : { "node": ">=0.4.0" }
