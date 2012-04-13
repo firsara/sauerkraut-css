@@ -1,5 +1,5 @@
 //
-// sauerkraut - Sauerkraut CSS 0.5.0
+// sauerkraut - Sauerkraut CSS 0.1.0
 // http://sauerkrautcss.org
 // 
 // Copyright (c) 2012, Fabian Irsara <info@fabianirsara.com>
@@ -113,6 +113,7 @@ var SauerkrautCompiler = (function(self){
 (function(){
 
   function getAjaxHttpRequest(){
+    var req;
     if (window.XMLHttpRequest && !(window.ActiveXObject)) { try { req = new XMLHttpRequest(); } catch(e) { req = false; } }
     else if (window.ActiveXObject) {
       try { req = new window.ActiveXObject("Msxml2.XMLHTTP"); }
@@ -164,13 +165,22 @@ var SauerkrautCompiler = (function(self){
     link = links.item(i);
     if (link.getAttribute('rel').toString() === 'stylesheet/sauerkraut') {
       source = link.getAttribute('href').toString();
-      if (source.substr(-5) === 'skcss') {
+      if (source.substr(source.length - 5) === 'skcss') {
         var data = fetchStylesheet(source);
         data = SauerkrautCompiler.compile(data);
 
         style = document.createElement('style');
         style.setAttribute('type', 'text/css');
-        style.innerHTML = data;
+
+        try {
+          style.innerHTML = data;
+        } catch(e) {}
+
+        try {
+          // IE < 9
+          style.styleSheet.cssText = data;
+        } catch(e) {}
+
         document.getElementsByTagName('head').item(0).appendChild(style);
       }
     }
