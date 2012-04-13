@@ -10,7 +10,8 @@ It parses skcss files (css written in german) and converts it to the appropriate
 
 Setup
 ------
-to get the latest stable version:
+### Get the latest stable version:
+
     npm install sauerkraut
 
 Examples
