@@ -5,7 +5,7 @@
   "url"           : "http://sauerkrautcss.org",
   "keywords"      : ["css", "parser", "sauerkraut", "sauerkrautcss", "browser"],
   "author"        : "Fabian Irsara <info@fabianirsara.com>",
-  "contributors"  : ["Andreas Penz"],
+  "contributors"  : ["Andreas Penz <info@dopamedia.com>"],
   "bin"           : { "sauerkraut": "./bin/sauerkraut" },
   "main"          : "./src/sauerkraut",
   "directories"   : { "test": "./test" },
