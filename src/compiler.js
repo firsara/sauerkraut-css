@@ -1,8 +1,8 @@
-// compiler.js
-// Sauerkraut Compiler
 var SauerkrautLex = require('./lex');
 
-var compiler = exports = module.exports = (function(self){
+// compiler.js
+// Sauerkraut Compiler
+var SauerkrautCompiler = exports = module.exports = (function(self){
 
   self.compile = function(data){
     var key;

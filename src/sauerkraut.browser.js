@@ -35,6 +35,16 @@
     }
   }
 
+  function fetchStylesheet(source){
+    var folder = source.substring(source.lastIndexOf('/'));
+    var data = fetchAjaxSync(source);
+
+    // TODO: fetch @import directives
+    var imports = [];
+
+    return data;
+  }
+
 
   var links = document.getElementsByTagName('link')
     , link
@@ -47,7 +57,7 @@
     if (link.getAttribute('rel').toString() === 'stylesheet/sauerkraut') {
       source = link.getAttribute('href').toString();
       if (source.substr(-5) === 'skcss') {
-        var data = fetchAjaxSync(source);
+        var data = fetchStylesheet(source);
         data = SauerkrautCompiler.compile(data);
 
         style = document.createElement('style');

@@ -6,8 +6,18 @@ var compiler = require('./compiler')
 
 function Sauerkraut(){}
 
-Sauerkraut.prototype.compile = function(source, destination){
+var fetchData = function(source){
+  var folder = source.substring(source.lastIndexOf('/'));
   var data = fs.readFileSync(source).toString();
+
+  // TODO: fetch @import directives
+  var imports = [];
+
+  return data;
+};
+
+Sauerkraut.prototype.compile = function(source, destination){
+  var data = fetchData(source);
   data = compiler.compile(data);
   if (destination) fs.writeFileSync(destination, data);
 };

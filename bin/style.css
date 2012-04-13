@@ -1,0 +1,14 @@
+body {
+  schriftgröße: 18px;
+}
+
+h1 {
+  schrifttransormation: hochgestellt;
+}
+
+article {
+  breite: 600px;
+  aussenabstand: automatisch;
+  background: leichtgrau;
+  innenabstand: 2px 10px;
+}

@@ -1,0 +1,13 @@
+{
+  "name"          : "sauerkraut",
+  "description"   : "Sauerkraut CSS",
+  "url"           : "http://sauerkrautcss.org",
+  "keywords"      : ["css", "parser", "sauerkraut", "sauerkrautcss", "browser"],
+  "author"        : "Fabian Irsara <info@fabianirsara.com>",
+  "contributors"  : ["Andreas Penz"],
+  "version"       : "0.5.0",
+  "bin"           : { "sauerkraut": "./bin/sauerkraut.js" },
+  "main"          : "./src/sauerkraut",
+  "directories"   : { "test": "./test" },
+  "engines"       : { "node": ">=0.4.0" }
+}
