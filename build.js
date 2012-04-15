@@ -9,7 +9,9 @@ var config = fs.readFileSync(__dirname+'/package.json').toString().toJSON();
 var head = fs.readFileSync(__dirname+'/src/head').toString();
 var compiler = fs.readFileSync(__dirname+'/src/compiler.js').toString();
 var lex = fs.readFileSync(__dirname+'/src/lex.js').toString();
-var sauerkraut = fs.readFileSync(__dirname+'/src/sauerkraut.browser.js').toString();
+var sauerkraut = fs.readFileSync(__dirname+'/src/sauerkraut.js').toString();
+var browser = fs.readFileSync(__dirname+'/src/sauerkraut.browser.js').toString();
+var fileSystem = fs.readFileSync(__dirname+'/src/sauerkraut.browser.fs.js').toString();
 
 head = head.replace(/@NAME/g, config.name.toString());
 head = head.replace(/@DESCRIPTION/g, config.description.toString());
@@ -19,8 +21,9 @@ head = head.replace(/@AUTHOR/g, config.author.toString());
 head = head.replace(/@CONTRIBUTORS/g, config.contributors.toString());
 
 compiler = compiler.substr(compiler.indexOf('var SauerkrautCompiler ='));
+sauerkraut = sauerkraut.substr(sauerkraut.indexOf('var Sauerkraut ='));
 
-var output = head+"\n\n"+lex+"\n\n"+compiler+"\n\n"+sauerkraut;
+var output = head+"\n\n"+fileSystem+"\n\n"+lex+"\n\n"+compiler+"\n\n"+sauerkraut+"\n\n"+browser;
 output = output.replace(/ = exports = module.exports/g, '');
 
 fs.writeFile(__dirname+'/dist/sauerkraut.js', output);

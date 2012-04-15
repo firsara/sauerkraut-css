@@ -2,6 +2,7 @@
 
 körper {
   schriftgröße: 18px;
+  color: red;
 }
 
 artikel {

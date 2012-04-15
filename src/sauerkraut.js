@@ -4,15 +4,14 @@
 var SauerkrautCompiler = require('./compiler')
   , fs = require('fs');
 
-function trim(s)
-{
+var Sauerkraut = exports = module.exports = function(){};
+
+function trim(s){
   var l = 0; var r = s.length -1;
   while(l < s.length && s[l] == ' ') { l++; }
   while(r > l && s[r] == ' ') { r-=1; }
   return s.substring(l, r+1);
 }
-
-function Sauerkraut(){}
 
 Sauerkraut.prototype.fetchImport = function(sourceData){
   var index = sourceData.indexOf('@import');
@@ -48,6 +47,7 @@ Sauerkraut.prototype.compile = function(source, destination){
   var data = this.fetchData(source);
   data = SauerkrautCompiler.compile(data);
   if (destination) fs.writeFileSync(destination, data);
+  else console.log(data);
 };
 
 Sauerkraut.prototype.watch = function(source, destination, interval){
@@ -58,5 +58,3 @@ Sauerkraut.prototype.watch = function(source, destination, interval){
     self.compile(source, destination);
   }, interval || 10000);
 };
-
-exports = module.exports = Sauerkraut;
