@@ -1,9 +1,7 @@
+@import 'typo';
+
 körper {
   schriftgröße: 18px;
-}
-
-ü1 {
-  schrifttransormation: hochgestellt;
 }
 
 artikel {
