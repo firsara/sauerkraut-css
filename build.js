@@ -28,6 +28,7 @@ output = output.replace(/ = exports = module.exports/g, '');
 
 fs.writeFile(__dirname+'/dist/sauerkraut.js', output);
 fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.js', output);
+console.log('Successfully compiled v-' + config.version.toString());
 
 try
 {
@@ -42,6 +43,7 @@ try
 
   fs.writeFile(__dirname+'/dist/sauerkraut.min.js', output);
   fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.min.js', output);
+	console.log('Successfully minified v-' + config.version.toString());
 }
 catch(e)
 {
