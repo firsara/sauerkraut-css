@@ -4,25 +4,45 @@ var SauerkrautLex = require('./lex');
 // Sauerkraut Compiler
 var SauerkrautCompiler = exports = module.exports = (function(self){
 
+  var any = "([\\s\\S]*?)";
+
   self.compile = function(data){
+    return compileWith(SauerkrautLex, data);
+  };
+
+  self.inverse = function(data){
+    var src = SauerkrautLex;
+    var lex = {};
+
+    for (var type in src) {
+      lex[type] = {};
+
+      for (var key in src[type]) {
+        lex[type][src[type][key]] = key;
+      }
+    }
+
+    return compileWith(lex, data);
+  };
+
+  var compileWith = function(lex, data){
     var key;
-    var lex = SauerkrautLex;
 
     for (key in lex.tags){
-      data = data.replace(new RegExp(lex.tags[key] + "{", 'g'), key + ' {');
-      data = data.replace(new RegExp(lex.tags[key] + "(\\s){", 'g'), key + ' {');
+      data = data.replace(new RegExp(lex.tags[key] + any + "{", 'g'), key + '$1{');
+    }
+
+    for (key in lex.pseudos){
+      data = data.replace(new RegExp(lex.pseudos[key] + any + "{", 'g'), key + '$1{');
     }
 
     for (key in lex.properties){
-      data = data.replace(new RegExp(lex.properties[key] + ':', 'g'), key + ':');
-      data = data.replace(new RegExp(lex.properties[key] + "(\\s):", 'g'), key + ':');
+      data = data.replace(new RegExp(lex.properties[key] + any + ':', 'g'), key + '$1:');
     }
 
     for (key in lex.values){
-      data = data.replace(new RegExp(lex.values[key] + ';', 'g'), key + ';');
-      data = data.replace(new RegExp(lex.values[key] + "(\\s);", 'g'), key + ';');
-      data = data.replace(new RegExp(lex.values[key] + "}", 'g'), key + '}');
-      data = data.replace(new RegExp(lex.values[key] + "\s}", 'g'), key + '}');
+      data = data.replace(new RegExp(lex.values[key] + any + ';', 'g'), key + '$1;');
+      data = data.replace(new RegExp(lex.values[key] + any + '}', 'g'), key + '$1}');
     }
 
     return data;

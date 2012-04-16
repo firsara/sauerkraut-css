@@ -28,8 +28,8 @@ Sauerkraut.prototype.fetchImport = function(sourceData){
   return {file: importFile, definition: definition};
 };
 
-Sauerkraut.prototype.fetchData = function(source){
-  if (source.substring(source.length - 6) !== '.skcss') source = source + '.skcss';
+Sauerkraut.prototype.fetchData = function(source, check){
+  if (check !== false && source.substring(source.length - 6) !== '.skcss') source = source + '.skcss';
   var folder = source.substring(0, source.lastIndexOf('/') + 1)
     , data = fs.readFileSync(source).toString()
     , importFile;
@@ -48,6 +48,15 @@ Sauerkraut.prototype.compile = function(source, destination){
   data = SauerkrautCompiler.compile(data);
   if (destination) fs.writeFileSync(destination, data);
   else console.log(data);
+  return data;
+};
+
+Sauerkraut.prototype.inverse = function(source, destination){
+  var data = this.fetchData(source, false);
+  data = SauerkrautCompiler.inverse(data);
+  if (destination) fs.writeFileSync(destination, data);
+  else console.log(data);
+  return data;
 };
 
 Sauerkraut.prototype.watch = function(source, destination, interval){

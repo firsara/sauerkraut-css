@@ -4,9 +4,13 @@ körper {
   schriftgröße: 18px;
 }
 
-artikel {
+artikel:erstes-kind > ü1 {
   breite: 600px;
   aussenabstand: automatisch;
   hintergrund: leichtgrau;
   innenabstand: 2px 10px;
+}
+
+körper artikel {
+  breite: 600px;
 }

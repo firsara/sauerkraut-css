@@ -13,7 +13,13 @@ var SauerkrautLex = exports = module.exports = (function(){
     , 'h6': 'ü6'
     , 'body': 'körper'
     , 'article': 'artikel'
+    , '@font-face': '@schrift-gesicht'
     }
+
+  , pseudos: {
+      'first-child': 'erstes-kind'
+    , 'not': 'nicht'
+  }
 
   , properties: {
       'azimuth' : 'azimuth <- ####### edit'

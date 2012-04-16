@@ -1,3 +1,4 @@
+var fs = require('fs');
 var Sauerkraut = require('./../src/sauerkraut');
 
 var kraut = new Sauerkraut();
