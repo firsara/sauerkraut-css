@@ -23,12 +23,21 @@ head = head.replace(/@CONTRIBUTORS/g, config.contributors.toString());
 compiler = compiler.substr(compiler.indexOf('var SauerkrautCompiler ='));
 sauerkraut = sauerkraut.substr(sauerkraut.indexOf('var Sauerkraut ='));
 
+
 var output = head+"\n\n"+fileSystem+"\n\n"+lex+"\n\n"+compiler+"\n\n"+sauerkraut+"\n\n"+browser;
 output = output.replace(/ = exports = module.exports/g, '');
 
+
+var phpHeaders = "<?php header('Content-Type: text/javascript; charset=utf-8'); ?>\n"
+
 fs.writeFile(__dirname+'/dist/sauerkraut.js', output);
 fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.js', output);
+
+fs.writeFile(__dirname+'/dist/sauerkraut-server.php', phpHeaders + output);
+fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'-server.php', phpHeaders + output);
+
 console.log('Successfully compiled v-' + config.version.toString());
+
 
 try
 {
@@ -43,6 +52,10 @@ try
 
   fs.writeFile(__dirname+'/dist/sauerkraut.min.js', output);
   fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.min.js', output);
+
+  fs.writeFile(__dirname+'/dist/sauerkraut-server.min.php', phpHeaders + output);
+  fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'-server.min.php', phpHeaders + output);
+
 	console.log('Successfully minified v-' + config.version.toString());
 }
 catch(e)

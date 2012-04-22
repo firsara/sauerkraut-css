@@ -262,6 +262,7 @@ var SauerkrautLex = (function(){
     , 'orange': 'orange'
     , 'auto': 'automatisch'
     , 'left': 'links'
+    , 'bold': 'fett'
     , 'right': 'right'
     , 'none': 'keines'
     , '!important': '!wichtig'

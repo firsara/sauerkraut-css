@@ -1,3 +1,4 @@
+<?php header('Content-Type: text/javascript; charset=utf-8'); ?>
 //
 // sauerkraut - Sauerkraut CSS 0.3.1
 // http://sauerkrautcss.org
