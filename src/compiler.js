@@ -29,20 +29,20 @@ var SauerkrautCompiler = exports = module.exports = (function(self){
     var key;
 
     for (key in lex.tags){
-      data = data.replace(new RegExp(lex.tags[key] + any + "{", 'g'), key + '$1{');
+      data = data.replace(new RegExp(lex.tags[key] + any + "{", 'gi'), key + '$1{');
     }
 
     for (key in lex.pseudos){
-      data = data.replace(new RegExp(lex.pseudos[key] + any + "{", 'g'), key + '$1{');
+      data = data.replace(new RegExp(lex.pseudos[key] + any + "{", 'gi'), key + '$1{');
     }
 
     for (key in lex.properties){
-      data = data.replace(new RegExp(lex.properties[key] + any + ':', 'g'), key + '$1:');
+      data = data.replace(new RegExp(lex.properties[key] + any + ':', 'gi'), key + '$1:');
     }
 
     for (key in lex.values){
-      data = data.replace(new RegExp(lex.values[key] + any + ';', 'g'), key + '$1;');
-      data = data.replace(new RegExp(lex.values[key] + any + '}', 'g'), key + '$1}');
+      data = data.replace(new RegExp(lex.values[key] + any + ';', 'gi'), key + '$1;');
+      data = data.replace(new RegExp(lex.values[key] + any + '}', 'gi'), key + '$1}');
     }
 
     return data;
