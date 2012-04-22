@@ -100,7 +100,7 @@ eingabe[type="search"]::-webkit-search-decoration {
   -webkit-appearance: keines;
 }
 textarea {
-  überlauf: automatischmatisch;
+  überlauf: automatisch;
   vertikale-ausrichtung: top;
 }
 hr {
@@ -113,10 +113,10 @@ hr {
   schrift-größe: 0;
   zeilen-höhe: 0;
   höhe: 0;
-  breite: automatischmatisch;
+  breite: automatisch;
 }
 .links,
-.float-links {
+.float-left {
   gleiten: left !wichtig;
   anzeige: block;
 }
@@ -470,7 +470,7 @@ hgroup > *.aktiv {
   rahmen: keines;
 }
 .icon.links,
-.icon.links .inner {
+.icon.left .inner {
   -webkit-border-radius: 0 2px 2px 0;
   -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
@@ -526,7 +526,7 @@ hgroup > *.aktiv {
   hintergrund: url("../bild/icons/arrow-down.png") links top;
 }
 .icon .links {
-  hintergrund: url("../bild/icons/arrow-links.png") left top;
+  hintergrund: url("../bild/icons/arrow-left.png") left top;
 }
 .icon .right {
   hintergrund: url("../bild/icons/arrow-right.png") links top;
@@ -542,7 +542,7 @@ hgroup > *.aktiv {
 .icon.aktiv {
   hintergrund-farbe: #666;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(rgba(0,0,0,0.40)), to(#666));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(rgba(0,0,0,0.40)), to(#666));
   hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), #666);
   hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), #666);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, #666));
@@ -606,7 +606,7 @@ header.über nav liste {
   position: relative;
   hintergrund-farbe: #262626;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(#363636), to(#262626));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#262626));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
@@ -627,7 +627,7 @@ nav {
   höhe: 40px;
   hintergrund-farbe: #262626;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(#363636), to(#262626));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#262626));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
@@ -679,7 +679,7 @@ nav #logo bild {
   position: relative;
   links: -2px;
   oben: -10px;
-  höhe: automatischmatisch;
+  höhe: automatisch;
   oben: -2px;
   links: 0px;
 }
@@ -734,7 +734,7 @@ nav ul li a.active:über {
   farbe: #fff;
   hintergrund-farbe: rgba(80,80,80,0.20);
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(rgba(0,0,0,0.40)), to(rgba(80,80,80,0.20)));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(rgba(0,0,0,0.40)), to(rgba(80,80,80,0.20)));
   hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
   hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, rgba(80,80,80,0.20)));
@@ -814,7 +814,7 @@ header.über anker {
   opacity: 0.5;
 }
 footer {
-  oben: automatischmatisch;
+  oben: automatisch;
   unten: 0;
   ebene: 18000;
   höhe: 30px;
@@ -822,7 +822,7 @@ footer {
   schrift-größe: 7.5pt;
   hintergrund-farbe: #303030;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(#363636), to(#303030));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#303030));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #303030);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #303030);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #303030));
@@ -981,11 +981,11 @@ footer anker:über {
   rechts: -200px;
 }
 #prev {
-  rechts: automatischmatisch;
+  rechts: automatisch;
   links: 0;
 }
 #prev .text {
-  rechts: automatischmatisch;
+  rechts: automatisch;
   links: -180px;
   -webkit-border-radius: 0 2px 2px 0;
   -moz-border-radius: 0 2px 2px 0;
@@ -1002,10 +1002,10 @@ footer anker:über {
 #prev .icon .inner {
   oben: 0;
   links: -32px;
-  hintergrund: url("../bild/icons/arrow-links.png") links top;
+  hintergrund: url("../bild/icons/arrow-links.png") left top;
 }
 #prev:über .text {
-  rechts: automatischmatisch;
+  rechts: automatisch;
   links: 32px;
 }
 #prev:über .icon {
@@ -1016,7 +1016,7 @@ footer anker:über {
   links: 0;
 }
 #prev.hidden {
-  rechts: automatischmatisch;
+  rechts: automatisch;
   links: -200px;
 }
 #up,
@@ -1064,7 +1064,7 @@ footer anker:über {
   hintergrund-farbe: #262626;
   hintergrund-bild: keines;
   farbe: #ccc;
-  overflow-y: automatischmatisch;
+  overflow-y: automatisch;
   overflow-x: hidden;
 }
 #overlay hr {
@@ -1085,7 +1085,7 @@ section {
   breite: 100%;
   höhe: 100%;
   position: relative;
-  rand: 0 automatischmatisch;
+  rand: 0 automatisch;
   overflow-y: automatisch;
   overflow-x: hidden;
   zoom: 1;
@@ -1102,7 +1102,7 @@ section:danach {
 section > .wrapper {
   zoom: 1;
   position: relative;
-  rand: 0 automatischmatisch;
+  rand: 0 automatisch;
   breite: 1290px;
 }
 section > .wrapper:davor,
@@ -1164,7 +1164,7 @@ section > .wrapper .col {
   überlauf: visible;
 }
 #work.list > .wrapper {
-  oben: automatischmatisch;
+  oben: automatisch;
   rand-oben: 0;
   höhe: automatisch;
   überlauf: visible;
@@ -1237,7 +1237,7 @@ section artikel .image .image-wrapper {
   oben: 0;
   links: 0;
   höhe: 100%;
-  breite: automatischmatisch;
+  breite: automatisch;
 }
 section artikel .image .image-mover {
   position: relative;
@@ -1414,7 +1414,7 @@ section artikel img {
   position: relative;
 }
 section artikel bild.preload {
-  höhe: automatischmatisch;
+  höhe: automatisch;
   position: relative;
   links: 138px;
   oben: 82px;
@@ -1437,7 +1437,7 @@ section artikel:über .overlay .icon-detail {
 }
 section.wide .image bild {
   breite: 100%;
-  höhe: automatischmatisch;
+  höhe: automatisch;
 }
 section.list artikel {
   überlauf: visible;
@@ -1814,7 +1814,7 @@ form {
   border-radius: 4px;
   hintergrund-farbe: #ededed;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, links bottom, from(#f7f7f7), to(#ededed));
+  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#f7f7f7), to(#ededed));
   hintergrund-bild: -moz-linear-gradient(top, #f7f7f7, #ededed);
   hintergrund-bild: -ms-linear-gradient(top, #f7f7f7, #ededed);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));

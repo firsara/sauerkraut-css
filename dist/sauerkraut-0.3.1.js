@@ -304,7 +304,6 @@ var SauerkrautCompiler = (function(self){
 
     for (key in lex.values){
       data = data.replace(new RegExp(lex.values[key] + any + ';', 'gi'), key + '$1;');
-      data = data.replace(new RegExp(lex.values[key] + any + '}', 'gi'), key + '$1}');
     }
 
     for (key in lex.pseudos){
