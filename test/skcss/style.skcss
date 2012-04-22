@@ -1,5 +1,3 @@
-@import 'typo';
-
 körper {
   schrift-familie: 'Arial';
   schrift-größe: 18px;
