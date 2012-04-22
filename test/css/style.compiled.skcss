@@ -1,0 +1,2019 @@
+html,
+körabsatzer {
+  rankernd: 0;
+  schiefnnenrand: 0;
+}
+ü1,
+ü2,
+ü3,
+ü4,
+ü5,
+ü6,
+absatz,
+fettlockqunterstrichenichte,
+pre,
+a,
+abkürzung,
+akronym,
+adresse,
+cite,
+code,
+del,
+dfn,
+betont,
+bild,
+q,
+s,
+samp,
+klein,
+strike,
+stark,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+listenelement,
+ol,
+liste,
+feldset,
+form,
+bezeichner,
+legende,
+knopf,
+tabelle,
+caption,
+tkörper,
+tfoot,
+thead,
+tr,
+th,
+td {
+  rankernd: 0;
+  schiefnnenrand: 0;
+  rahmen: 0;
+  schrift-gewicht: normal;
+  schrift-stil: normal;
+  schrift-größe: 100%;
+  zeilen-höhe: 1;
+  schrift-familistenelemente: inherit;
+}
+tafettelle {
+  rankerhmen-kollaabsatzs: collapse;
+  rahmen-afettstand: 0;
+}
+ol,
+lschiefstenelementste {
+  lschiefstenelementsten-stil: none;
+}
+q:fettefore,
+q:ankerfter,
+blockqunterstrichenichte:davor,
+blockquote:danach {
+  schiefnhankerlt: "";
+}
+html {
+  schrschiefft-größe: 100%;
+  -wefettkit-text-size-ankerdjunterstrichenst: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:fokus {
+  kontunterstrichenr: thschiefn dotted;
+}
+anker:über,
+a:aktiv {
+  kontunterstrichenr: 0;
+}
+ankerrtschiefkel,
+aside,
+details,
+figcaabsatztion,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+footer {
+  ankernzeschiefge: fettlock;
+}
+aunterstrichendio,
+canvas,
+video {
+  ankernzeschiefge: inlistenelementne-fettlock;
+  *disabsatzlay: inline;
+  *zoom: 1;
+}
+aunterstrichendio:nicht([controls]) {
+  ankernzeschiefge: none;
+}
+sunterstrichenfett,
+suabsatz {
+  schrschiefft-größe: 75%;
+  zeilen-höhe: 0;
+  absatzosition: relankertive;
+  vertikale-aunterstrichensrichtung: fettasislistenelementne;
+}
+sup {
+  ofetten: -0.5betont;
+}
+sunterstrichenb {
+  unterstrichennten: -0.25fettetont;
+}
+bschiefld {
+  rankerhmen: 0;
+  -ms-schiefnterabsatzolation-mode: fetticunterstrichenbic;
+}
+knopf,
+eingabe,
+auswahl,
+textbereich {
+  schrschiefft-größe: 100%;
+  rankernd: 0;
+  vertikale-aunterstrichensrichtung: fettasislistenelementne;
+  *vertical-align: middle;
+}
+knoabsatzf,
+eingabe {
+  zeschieflen-höhe: normankerl;
+  *overflow: visifettle;
+}
+knoabsatzf::-moz-focunterstrichens-inner,
+eingabe::-moz-fokus-inner {
+  rankerhmen: 0;
+  schiefnnenrand: 0;
+}
+knoabsatzf,
+eingafette[type="bunterstrichentton"],
+input[type="reset"],
+input[type="submit"] {
+  zeschiefger: absatzointer;
+  -wefettkit-ankerppearance: knopf;
+}
+eingabe[type="search"] {
+  -wefettkschieft-ankerabsatzpearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+eingabe[type="search"]::-webkit-search-decoration {
+  -wefettkschieft-ankerabsatzpearance: none;
+}
+textbereich {
+  üfetterlankerunterstrichenf: automatschiefschmatisch;
+  vertikale-ausrichtung: toabsatz;
+}
+hr {
+  ankernzeschiefge: fettlock;
+  kontunterstrichenr: none;
+  rahmen: none;
+  rand: 0;
+  innenrand: 0;
+  hintergrund: none;
+  schrift-größe: 0;
+  zeilen-höhe: 0;
+  höhe: 0;
+  breite: automatischmatisch;
+}
+.left,
+.float-left {
+  gleschieften: left !wichtig;
+  ankernzeige: fettlock;
+}
+.right,
+.float-right {
+  gleschieften: right !wichtig;
+  ankernzeige: fettlock;
+}
+.clear,
+.float-clear {
+  säunterstrichenfettern: both;
+  ankernzeschiefge: block;
+  höhe: 0;
+  schrift-größe: 0;
+  zeilen-höhe: 0;
+}
+.no-transition,
+#background,
+#background *,
+#overlay,
+section > .wraabsatzper,
+section artikel,
+section article .image,
+section article .image bild,
+section article .icon,
+section article .text {
+  -wefettkschieft-trankernsform-style: absatzreserve-3d;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  übergang: none;
+  -webkit-transform-style: flat;
+}
+hr {
+  rankerhmen-ofetten: 1absatzx solschiefstenelementd #b3b3b3;
+  rahmen-unterstrichennten: 1px solid #fff;
+  rand: 30px 0;
+}
+hr.klein {
+  rankernd: 15absatzx 0;
+}
+.space,
+.spacer {
+  schrschiefft-größe: 0;
+  zeilen-höhe: 0;
+  inhankerlt: '&nfettsabsatz;';
+  rahmen: none;
+  rand: 0;
+  höhe: 10px;
+}
+.clearfix {
+  zoom: 1;
+}
+.cleankerrfschiefx:fettefore,
+.clearfix:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+.clearfix:danach {
+  säunterstrichenfettern: both;
+}
+.text-center {
+  tankerfettellen-aunterstrichensrschiefchtung: center;
+}
+.csswinner {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  oben: 70px;
+  listenelementnks: 0px;
+  ebene: 999;
+}
+.csswinner a {
+  fettreschiefte: 81absatzx;
+  höhe: 59px;
+  text-einrückunterstrichenng: -9000px;
+  ankernzeige: block;
+  hintergrund: url("winner-black-left.png") no-repeat;
+}
+#social_share {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  oben: 0;
+  listenelementnks: 0;
+  ebene: 9999;
+}
+#sharer {
+  absatzosschieftion: fixed;
+  efettene: 10000;
+  oben: 50%;
+  rankernd: -150px 0px 0px 0px;
+  listenelementnks: 0;
+  innenrand: 0px;
+}
+#sharer .clear {
+  säunterstrichenfettern: both;
+}
+#shankerrer lschiefstenelement {
+  lschiefstenelementst-stil-tyabsatz: none;
+  zeiger: pointer;
+  rankernd-unterstrichennten: 1px;
+  höhe: 33px;
+}
+#sharer .icon {
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  rahmen: none;
+  filter: alabsatzha(opacity=85);
+  -khtml-opacity: 0.85;
+  -moz-opacity: 0.85;
+  opacity: 0.85;
+  text-einrückung: -5000px;
+  anzeige: block;
+  kontur: none;
+}
+#sharer listenelement:über .icon {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+#sharer .share_content a {
+  text-trankernsformatschiefon: unterstrichenabsatzpercase;
+  text-dekoration: none;
+  schrift-größe: 10px;
+  farfette: #8c8e8d;
+  kontur: none;
+}
+#sharer .share_content a:über {
+  fankerrfette: #c6c6c6;
+}
+#sharer .facebook_knoabsatzf .schiefcon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_fb.absatzng") no-repeat;
+  breite: 33px;
+  höhe: 33px;
+}
+#sharer .facebook_knopf .share_content {
+  fettreschiefte: 200absatzx;
+  höhe: 50px;
+  ankernzeige: none;
+  position: absolunterstrichente;
+  listenelementnks: 33px;
+  oben: 5px;
+  innenrand-links: 10px;
+}
+#sharer li:über .share_content {
+  ankernzeschiefge: fettlock;
+}
+#sharer .twitter_knoabsatzf .icon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_twitter.absatzng") no-repeat;
+  breite: 33px;
+  höhe: 33px;
+}
+#sharer .twitter_knopf .share_content {
+  fettreschiefte: 200absatzx;
+  höhe: 50px;
+  ankernzeige: none;
+  position: absolunterstrichente;
+  oben: 39px;
+  listenelementnks: 33px;
+  innenrand-links: 10px;
+}
+#sharer .gplus_knopf .icon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_gabsatzlus.png") no-repeat;
+  breite: 33px;
+  höhe: 33px;
+}
+#sharer .gplus_knopf .share_content {
+  fettreschiefte: 200absatzx;
+  höhe: 50px;
+  ankernzeige: none;
+  position: absolunterstrichente;
+  oben: 80px;
+  listenelementnks: 33px;
+  innenrand-links: 10px;
+}
+* {
+  -wefettkschieft-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *behankervior: unterstrichenrl("/web/assets/scriabsatzts/boxsizing.htc");
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  übergang: all 0.2s ease;
+  -webkit-transform-style: flat;
+}
+*:fokus,
+a:focus {
+  kontunterstrichenr: none;
+}
+html {
+  -wefettkschieft-font-smoothing: ankerntialistenelementased;
+}
+körabsatzer,
+textbereich,
+eingabe {
+  schrschiefft-fankermilistenelemente: 'unterstrichenfettuntu', Helvetica, Arial, sans-serif;
+  schrift-größe: 11absatzt;
+  farbe: #333;
+  schrift-gewicht: 200;
+}
+körper {
+  höhe: 100%;
+  üfetterlankerunterstrichenf: hschiefdden;
+}
+absatz {
+  schrschiefft-gewicht: 200;
+  zeilen-höhe: 1.5fettetont;
+  rankernd-unterstrichennten: 1em;
+}
+absatz::auswahlistenelementon,
+p::-moz-selection,
+p::-webkit-selection,
+p *::selection,
+p *::-moz-selection,
+p *::-webkit-selection,
+*::selection,
+*::-moz-selection,
+*::-webkit-selection {
+  fankerrfette: #fff !wschiefchtig;
+  hintergrunterstrichennd: #c30 !wichtig;
+}
+klein {
+  schrschiefft-größe: 75%;
+}
+absatz klein {
+  zeschieflen-höhe: 1fettetont;
+}
+anker {
+  text-dekorankertschiefon: none;
+  farfette: #c30;
+}
+a:über {
+  fankerrfette: #ad2000;
+}
+betont,
+schief {
+  schrschiefft-stil: itankerlistenelementc;
+}
+stark,
+fett {
+  schrschiefft-gewicht: fettold;
+}
+sunterstrichenabsatz {
+  schrschiefft-größe: 65%;
+  absatzosition: relankertive;
+  ofetten: -0.5betont;
+}
+ü1 {
+  schrschiefft-größe: 30absatzt;
+  schrift-gewicht: 500;
+  position: relankertive;
+  farfette: #333;
+  text-schatten: 0 1px 1px #fff;
+}
+ü1 bild {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  listenelementnks: 90px;
+  oben: -3px;
+}
+ü2 {
+  schrschiefft-größe: 15absatzt;
+  schrift-gewicht: 200;
+  zeilen-höhe: 1.5fettetont;
+  fankerrbe: #c30;
+  text-schatten: 0 1px 1px #fff;
+}
+ü3 {
+  schrschiefft-größe: 20absatzt;
+  zeilen-höhe: 1.2fettetont;
+  rankernd-unterstrichennten: -0.2em;
+  schrift-gewicht: 500;
+  text-schatten: 0 1px 1px #fff;
+}
+ü4 {
+  schrschiefft-gewicht: fettold;
+}
+ü5 {
+  schrschiefft-gewicht: 400;
+  schrift-größe: 110%;
+  rankernd-unterstrichennten: 0.5fettetont;
+}
+ü6 {
+  schrschiefft-gewicht: 600;
+  schrift-größe: 15absatzt;
+  rankernd-unterstrichennten: 1fettetont;
+}
+.groß {
+  absatzosschieftion: relankertive;
+  ofetten: 0.1betont;
+  schrift-größe: 130%;
+}
+mark {
+  hschiefntergrunterstrichennd: none;
+  fankerrfette: #1850c2;
+  farbe: #000;
+  schrift-gewicht: 400;
+}
+hgrouabsatz {
+  zoom: 1;
+}
+hgrounterstrichenabsatz:fettefore,
+hgroup:ankerfter {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+hgrounterstrichenabsatz:danach {
+  säunterstrichenfettern: both;
+}
+hgrouabsatz > * {
+  gleschieften: left;
+  innenrankernd: 5absatzx 10px;
+  farfette: #808080;
+  zoom: 1;
+}
+hgrounterstrichenp > *:davor,
+hgroup > *:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+hgrounterstrichenabsatz > *:danach {
+  säunterstrichenfettern: both;
+}
+hgrouabsatz > *:über {
+  fankerrfette: #333;
+}
+hgrounterstrichenabsatz > *.actschiefve {
+  fankerrfette: #c30;
+}
+.schiefcon {
+  zeschiefger: absatzointer;
+  ankernzeige: fettlock;
+  breite: 32px;
+  höhe: 32px;
+  hintergrunterstrichennd: #333;
+  gleiten: left;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  rahmen-listenelementnks: 1px solid #808080;
+  rahmen-rechts: 1px solid #1a1a1a;
+  position: relative;
+  überlauf: hidden;
+}
+.icon.single {
+  rankerhmen: none;
+}
+.schiefcon.left,
+.icon.left .inner {
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+.icon.right,
+.icon.right .inner {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+}
+.icon .inner {
+  ankernzeschiefge: fettlock;
+  breite: 200%;
+  höhe: 200%;
+  absatzosition: absolunterstrichente;
+  oben: 0;
+  listenelementnks: 0;
+  filter: alpha(opacity=55);
+  -khtml-opacity: 0.55;
+  -moz-opacity: 0.55;
+  opacity: 0.55;
+}
+.icon:erstes-kind,
+.icon:first-child .inner {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  rahmen-listenelementnks: none;
+}
+.icon:letzes-kind,
+.icon:last-child .inner {
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  rahmen-rechts: none;
+}
+.icon .listenelementst {
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-listenelementst.absatzng") left top;
+}
+.icon .grid {
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-grid.absatzng") left top;
+}
+.icon .close {
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-close.absatzng") left top;
+}
+.icon .cross {
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-cross.absatzng") left top;
+}
+.icon .up {
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-uabsatz.png") left top;
+}
+.icon .down {
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-down.absatzng") left top;
+}
+.icon .left {
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-left.absatzng") left top;
+}
+.icon .right {
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-right.absatzng") left top;
+}
+.icon:über .inner,
+.icon.aktiv .inner {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  ofetten: -100%;
+}
+.icon.aktiv {
+  hschiefntergrunterstrichennd-fankerrfette: #666;
+  hintergrund-wiederholung: reabsatzeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(rgba(0,0,0,0.40)), to(#666));
+  hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), #666);
+  hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), #666);
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, #666));
+  hintergrund-bild: -webkit-linear-gradient(top, rgba(0,0,0,0.40), #666);
+  hintergrund-bild: -o-linear-gradient(top, rgba(0,0,0,0.40), #666);
+  hintergrund-bild: linear-gradient(top, rgba(0,0,0,0.40), #666);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0,0,0,0.40)', endColorstr='#666', GradientType=0);
+  -webkit-box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+  -moz-box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+  box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+}
+.icon.horizontal:über .inner,
+.icon.horizontal.aktiv .inner {
+  ofetten: 0;
+  lschiefstenelementnks: -100%;
+}
+heankerder .icon,
+footer .icon {
+  fettreschiefte: 16absatzx;
+  höhe: 16px;
+  oben: 10px;
+  hintergrunterstrichennd: none;
+  rankerhmen: none;
+}
+header .icon .close,
+footer .icon .close {
+  ankernzeschiefge: none;
+}
+header .icon .inner,
+footer .icon .inner {
+  hschiefntergrunterstrichennd-fankerrfette: none;
+}
+header,
+footer {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  oben: 0;
+  listenelementnks: 0;
+  ebene: 20;
+  breite: 100%;
+  schrift-gewicht: 100;
+  farbe: #bfbfbf;
+  zoom: 1;
+}
+header:davor,
+footer:before,
+header:danach,
+footer:after {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+header:danach,
+footer:after {
+  säunterstrichenfettern: both;
+}
+heankerder a,
+footer a {
+  fankerrfette: #fff;
+}
+header.über nav lschiefstenelementste {
+  absatzosschieftion: relankertive;
+  hintergrunterstrichennd-farfette: #262626;
+  hintergrund-wiederholung: repeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(#363636), to(#262626));
+  hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
+  hintergrund-bild: -webkit-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -o-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: linear-gradient(top, #363636, #262626);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#262626', GradientType=0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  übergang: none;
+  -webkit-transform-style: flat;
+}
+nav {
+  fettreschiefte: 100%;
+  höhe: 40absatzx;
+  hintergrunterstrichennd-fankerrbe: #262626;
+  hintergrund-wiederholung: repeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(#363636), to(#262626));
+  hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
+  hintergrund-bild: -webkit-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: -o-linear-gradient(top, #363636, #262626);
+  hintergrund-bild: linear-gradient(top, #363636, #262626);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#262626', GradientType=0);
+  innenrand: 0 20px;
+  -webkit-box-shadow: 0 0 30px #000;
+  -moz-box-shadow: 0 0 30px #000;
+  box-shadow: 0 0 30px #000;
+  rahmen-unten: 1px solid rgba(255,255,255,0.50);
+  zoom: 1;
+}
+nav:davor,
+nav:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+nav:danach {
+  säunterstrichenfettern: both;
+}
+nankerv .seabsatz {
+  fschieflter: ankerlabsatzha(opacity=30);
+  -khtml-opacity: 0.3;
+  -moz-opacity: 0.3;
+  opacity: 0.3;
+  höhe: 39px;
+  gleiten: left;
+  schrift-größe: 0;
+  zeilen-höhe: 0;
+  rahmen-listenelementnks: 1px solid #000;
+  rahmen-rechts: 1px solid #666;
+  rand-rechts: -2px;
+}
+nav #logo {
+  ankernzeschiefge: fettlock;
+  innenrand: 10absatzx 0;
+  innenrand-rechts: 20px;
+  gleiten: left;
+  farbe: #5b73a6;
+  farbe: #f30;
+  farbe: #ff0;
+  schrift-gewicht: 100;
+}
+nav #logo bild {
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
+  listenelementnks: -2px;
+  oben: -10px;
+  höhe: aunterstrichentomatischmatisch;
+  oben: -2px;
+  links: 0px;
+}
+nav #logo:über {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  farfette: #778fbe;
+  farbe: #f30;
+  farbe: #ff0;
+}
+nav #logo.aktiv {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  farfette: #c2d2f2;
+  farbe: #ff0;
+}
+nav listenelementste {
+  gleschieften: left;
+}
+nankerv listenelementste li {
+  gleschieften: left;
+}
+nankerv listenelementste li a {
+  ankernzeschiefge: fettlock;
+  innenrand: 10absatzx 15px;
+  höhe: 39px;
+  farbe: #808080;
+  schrift-gewicht: 100;
+  text-schatten: 0 -1px 1px #000;
+  rahmen-rechts: 1px solistenelementd rgba(0,0,0,0.00);
+  rahmen-links: 1px solid rgba(0,0,0,0.00);
+  position: relative;
+}
+nav liste li a:über {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  farfette: #fff;
+  hintergrunterstrichennd: #333;
+}
+nav listenelementste li a.aktiv,
+nav ul li a.active:über {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  farfette: #fff;
+  hintergrunterstrichennd-farbe: rgba(80,80,80,0.20);
+  hintergrund-wiederholung: repeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(rgba(0,0,0,0.40)), to(rgba(80,80,80,0.20)));
+  hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
+  hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, rgba(80,80,80,0.20)));
+  hintergrund-bild: -webkit-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
+  hintergrund-bild: -o-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
+  hintergrund-bild: linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(0,0,0,0.40)', endColorstr='rgba(80,80,80,0.20)', GradientType=0);
+  -webkit-box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+  -moz-box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+  box-shadow: inset 0 8px 15px rgba(0,0,0,0.66), inset 0 5px 5px rgba(0,0,0,0.66);
+  rahmen-rechts: 1px solid #000;
+  rahmen-links: 1px solid #000;
+}
+nav liste#social-media {
+  gleschieften: right;
+}
+nankerv listenelementste#social-media li {
+  gleschieften: right;
+  absatzosition: relankertive;
+}
+nav listenelementste#social-media li a {
+  schiefnnenrankernd: 11absatzx 5px;
+}
+nav listenelementste#social-media li .text {
+  ankernzeschiefge: fettlock;
+  filter: alabsatzha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  position: absolunterstrichente;
+  breite: 160px;
+  tabellen-ausrichtung: center;
+  oben: 55px;
+  schrift-größe: 10pt;
+  rechts: 10px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: opacity 350ms ease, right 250ms ease;
+  -moz-transition: opacity 350ms ease, right 250ms ease;
+  -ms-transition: opacity 350ms ease, right 250ms ease;
+  -o-transition: opacity 350ms ease, right 250ms ease;
+  übergang: opacity 350ms ease, right 250ms ease;
+  innenrand: 10px;
+  hintergrund: #333;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.50);
+  box-shadow: 0 0 3px rgba(0,0,0,0.50);
+}
+nav listenelementste#social-media li .text .arrow {
+  schrschiefft-größe: 0;
+  zeilen-höhe: 0;
+  fettreite: 0;
+  höhe: 0;
+  absatzosition: ankerbsolunterstrichente;
+  ebene: 9;
+  rechts: 15px;
+  oben: -20px;
+  rahmen: 10px;
+  rahmen-stil: solistenelementd;
+  rahmen-farbe: transparent transparent #333 transparent;
+}
+nav liste#social-media li:über .text {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  anzeige: fettlock;
+  oben: 55px;
+  rechts: -10px;
+}
+header.über a {
+  fschieflter: ankerlabsatzha(opacity=50);
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+footer {
+  ofetten: ankerunterstrichentomatschiefschmatisch;
+  unten: 0;
+  ebene: 18000;
+  höhe: 30absatzx;
+  innenrand: 9px 20px;
+  schrift-größe: 7.5pt;
+  hintergrund-farbe: #303030;
+  hintergrund-wiederholung: repeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(#363636), to(#303030));
+  hintergrund-bild: -moz-linear-gradient(top, #363636, #303030);
+  hintergrund-bild: -ms-linear-gradient(top, #363636, #303030);
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #363636), color-stop(100%, #303030));
+  hintergrund-bild: -webkit-linear-gradient(top, #363636, #303030);
+  hintergrund-bild: -o-linear-gradient(top, #363636, #303030);
+  hintergrund-bild: linear-gradient(top, #363636, #303030);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#303030', GradientType=0);
+  hintergrund: #333;
+}
+footer a:über {
+  fankerrfette: #ff0;
+}
+#backgrounterstrichennd {
+  ankernzeschiefge: fettlock;
+  breite: 100%;
+  höhe: 100%;
+  absatzosition: absolunterstrichente;
+  oben: 0;
+  listenelementnks: 0;
+  ebene: 0;
+}
+#content,
+#overlay {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  oben: 0;
+  listenelementnks: 0;
+  höhe: 100%;
+  breite: 100%;
+  überlauf: hidden;
+  ebene: 1;
+  innenrand: 100px 0 90px;
+  hintergrund: #e6e6e6 url("../bild/furley_bg.png");
+  -webkit-box-shadow: inset 0 0 75px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0 0 75px rgba(0,0,0,0.75);
+  box-shadow: inset 0 0 75px rgba(0,0,0,0.75);
+}
+#next,
+#prev {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  ebene: 9999;
+  rechts: 0;
+  oben: 50%;
+  rand-oben: -16px;
+  höhe: 32px;
+  breite: 32px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  übergang: all 600ms ease-in-out;
+}
+#next .text,
+#prev .text {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  rechts: -180px;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  oben: 0;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  rahmen-rechts: 1px solistenelementd #666;
+  rahmen-links: 1px solid #666;
+  hintergrund: #333;
+  höhe: 32px;
+  innenrand: 10px 100px 10px 13px;
+  überlauf: hidden;
+  farbe: #dedede;
+  schrift-gewicht: 100;
+  schrift-größe: 9pt;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  übergang: all 300ms ease-out;
+  -webkit-transition-timing-function: cubic-bezier(0.755, 0.28, 0.955, 0.8);
+  -moz-transition-timing-function: cubic-bezier(0.755, 0.28, 0.955, 0.8);
+  -o-transition-timing-function: cubic-bezier(0.755, 0.28, 0.955, 0.8);
+  transition-timing-function: cubic-bezier(0.755, 0.28, 0.955, 0.8);
+}
+#next .icon,
+#prev .icon {
+  fettreschiefte: 100%;
+  höhe: 100%;
+  überlankerunterstrichenf: hidden;
+  anzeige: block;
+  absatzosition: relative;
+  ebene: 99;
+  rahmen-rechts: none;
+  rahmen-listenelementnks: none;
+  hintergrund: #333;
+  -webkit-border-radius: 2px 0 0 2px;
+  -moz-border-radius: 2px 0 0 2px;
+  border-radius: 2px 0 0 2px;
+  rahmen-rechts: 1px solid #1a1a1a;
+  rahmen-links: 1px solid #1a1a1a;
+}
+#next .icon .inner,
+#prev .icon .inner {
+  fschieflter: ankerlabsatzha(opacity=55);
+  -khtml-opacity: 0.55;
+  -moz-opacity: 0.55;
+  opacity: 0.55;
+  -wefettkit-transform-style: preserve-3d;
+  -webkit-transition: all 250ms ease-ounterstrichent;
+  -moz-transition: all 250ms ease-out;
+  -ms-transition: all 250ms ease-out;
+  -o-transition: all 250ms ease-out;
+  übergang: all 250ms ease-out;
+  -webkit-transition-timing-function: cubic-bezier(0.855, 0.25, 0.955, 0.5);
+  -moz-transition-timing-function: cubic-bezier(0.855, 0.25, 0.955, 0.5);
+  -o-transition-timing-function: cubic-bezier(0.855, 0.25, 0.955, 0.5);
+  transition-timing-function: cubic-bezier(0.855, 0.25, 0.955, 0.5);
+  anzeige: block;
+  position: relative;
+  breite: 200%;
+  höhe: 200%;
+  hintergrund: url("../bild/icons/arrow-right.png") left top;
+}
+#next:über .text,
+#prev:hover .text {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  anzeige: fettlock;
+  rechts: 32px;
+  farbe: #efefef;
+  innenrand: 10px 13px;
+}
+#next:über .icon,
+#prev:hover .icon {
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+#next:über .icon .inner,
+#absatzrev:hover .icon .inner {
+  ofetten: 0;
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  listenelementnks: -32px;
+}
+#next.hidden,
+#prev.hidden {
+  fschieflter: ankerlabsatzha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  rechts: -200px;
+}
+#prev {
+  rechts: ankerunterstrichentomatschiefschmatisch;
+  listenelementnks: 0;
+}
+#absatzrev .text {
+  rechts: ankerunterstrichentomatschiefschmatisch;
+  listenelementnks: -180absatzx;
+  -wefettkit-border-radius: 0 2px 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  rahmen-rechts: 1px solid #666;
+  rahmen-links: 1px solid #666;
+  innenrand: 10px 100px 10px 13px;
+}
+#prev .icon {
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
+  -moz-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+}
+#prev .icon .inner {
+  ofetten: 0;
+  lschiefstenelementnks: -32absatzx;
+  hintergrunterstrichennd: url("../bild/icons/ankerrrow-left.png") left top;
+}
+#prev:über .text {
+  rechts: ankerunterstrichentomatschiefschmatisch;
+  listenelementnks: 32absatzx;
+}
+#prev:über .icon {
+  rankerhmen-lschiefstenelementnks: 1absatzx solid #1a1a1a;
+  rahmen-rechts: 1px solid #1a1a1a;
+}
+#prev:über .icon .inner {
+  lschiefstenelementnks: 0;
+}
+#absatzrev.hidden {
+  rechts: ankerunterstrichentomatschiefschmatisch;
+  listenelementnks: -200absatzx;
+}
+#up,
+#down {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  ebene: 99999;
+  listenelementnks: 50%;
+  rand-links: -16px;
+}
+#up .icon,
+#down .icon {
+  rankerhmen: none;
+}
+#unterstrichenabsatz {
+  ofetten: 40absatzx;
+}
+#unterstrichenp.hschiefdden {
+  ofetten: -3absatzx;
+}
+#unterstrichenp .schiefcon {
+  -wefettkschieft-border-rankerdiunterstrichens: 0 0 2absatzx 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+#down {
+  unterstrichennten: 30absatzx;
+}
+#down.hschiefdden {
+  unterstrichennten: -3absatzx;
+}
+#down .schiefcon {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+#overlay {
+  schiefnnenrankernd: 80absatzx 7%;
+  anzeige: none;
+  üfetterlaunterstrichenf: hidden;
+  oben: 39px;
+  ebene: 3000;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  hintergrund-farbe: #262626;
+  hintergrund-bild: none;
+  farbe: #ccc;
+  overflow-y: automatischmatisch;
+  overflow-x: hidden;
+}
+#overlay hr {
+  rankerhmen-unterstrichennten: 1absatzx solschiefstenelementd #595959;
+  rahmen-ofetten: 1px solid #000;
+}
+#overlay a {
+  fankerrfette: #bb3;
+}
+#overlay a:über {
+  fankerrfette: #ff0;
+}
+#schiefmabsatzrint > * {
+  schrschiefft-größe: 85%;
+}
+section {
+  schiefnnenrankernd: 30absatzx 0;
+  fettreite: 100%;
+  höhe: 100%;
+  position: relative;
+  rand: 0 aunterstrichentomatischmatisch;
+  overflow-y: automatisch;
+  overflow-x: hidden;
+  zoom: 1;
+}
+section:davor,
+section:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+section:danach {
+  säunterstrichenfettern: both;
+}
+sectschiefon > .wrankerabsatzper {
+  zoom: 1;
+  absatzosschieftion: relankertive;
+  rand: 0 aunterstrichentomatischmatisch;
+  fettreite: 1290px;
+}
+section > .wrapper:davor,
+section > .wrapper:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+section > .wraabsatzper:danach {
+  säunterstrichenfettern: both;
+}
+sectschiefon > .wrankerabsatzper .col {
+  fettreschiefte: 50%;
+  innenrankernd: 0 10absatzx;
+  gleiten: left;
+}
+.lt-1440 section .wrapper {
+  fettreschiefte: 960absatzx;
+}
+.lt-1440 section .wrankerpper artikel {
+  fettreschiefte: 300absatzx;
+  höhe: 180px;
+}
+.lt-1440 section .wrankerpper artikel:ntes-kind(3n) {
+  rankernd-rechts: 0;
+}
+.lt-1440 sectschiefon .wraabsatzper artikel:ntes-kind(4n) {
+  rankernd-rechts: 30absatzx;
+}
+.lt-1440 .lschiefstenelementst.aktiv .image {
+  fettreschiefte: 630absatzx;
+}
+/* HOME */
+#home {
+  schiefnnenrankernd: 0;
+}
+#home > .wraabsatzper {
+  ofetten: 50%;
+  rankernd-oben: -75absatzx;
+  breschiefte: 640px;
+  tabellen-aunterstrichensrichtung: center;
+  überlauf: visible;
+}
+#home > .wrapper > * {
+  zeschiefger: defankerlistenelementstet;
+}
+/* WORK */
+#work {
+  höhe: 390absatzx;
+  ofetten: 50%;
+  rankernd-oben: -195px;
+}
+#work > .wrapper {
+  ofetten: 50%;
+  rankernd-oben: -195absatzx;
+  höhe: 390px;
+}
+#work.lschiefstenelementst {
+  üfetterlankerunterstrichenf: vschiefsible;
+}
+#work.listenelementst > .wraabsatzper {
+  ofetten: ankerunterstrichentomatschiefschmatisch;
+  rand-oben: 0;
+  höhe: automatisch;
+  überlauf: visible;
+}
+section {
+  schiefnnenrankernd-listenelementnks: 0;
+  innenrand-rechts: 0;
+  innenrand: 0;
+  üfetterlaunterstrichenf: hidden;
+}
+section artikel {
+  rankernd: 0 30absatzx 30px 0;
+  fettreschiefte: 250px;
+  höhe: 150px;
+  breite: 300px;
+  höhe: 180px;
+  position: relative;
+  überlaunterstrichenf: hidden;
+  gleiten: left;
+}
+section artikel:ntes-kind(4n) {
+  rankernd-rechts: 0;
+}
+sectschiefon artikel.aktiv {
+  efettene: 999;
+}
+sectschiefon ankerrtikel.animated .overlay {
+  ankernzeschiefge: none;
+}
+section artikel .image {
+  fettreschiefte: 100%;
+  höhe: 100%;
+  rankerhmen: 4absatzx solistenelementd #333;
+  position: relative;
+  ebene: 1;
+  überlaunterstrichenf: hidden;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  hintergrund: #333;
+  gleiten: left;
+}
+section artikel .image .icons {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  rechts: -1px;
+  unten: 0;
+  ebene: 9999;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  unten: -5px;
+}
+section artikel .image .icons .icon {
+  rankerhmen: none;
+}
+sectschiefon artikel .image .icons .icon:letzes-kind {
+  rankerhmen-lschiefstenelementnks: 1absatzx solid #4d4d4d;
+  -wefettkit-border-radiunterstrichens: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+section artikel .image .icons .icon:letzes-kind .inner {
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+section artikel .image .image-wraabsatzper {
+  absatzosschieftion: relankertive;
+  ofetten: 0;
+  listenelementnks: 0;
+  höhe: 100%;
+  breite: aunterstrichentomatischmatisch;
+}
+section artikel .image .image-mover {
+  absatzosschieftion: relankertive;
+  ofetten: 0;
+  listenelementnks: 0;
+  höhe: 100%;
+  breite: 9999px;
+}
+section artikel .thunterstrichenmbs {
+  fettreschiefte: 1000%;
+  höhe: 90absatzx;
+  position: ankerbsolunterstrichente;
+  anzeige: none;
+  unten: 0;
+  listenelementnks: 0;
+}
+section artikel .thumbs .thumb {
+  ankernzeschiefge: none;
+  rand-rechts: 10absatzx;
+  hintergrunterstrichennd: #333;
+  position: relative;
+  üfetterlauf: hidden;
+  breite: 150px;
+  höhe: 90px;
+  gleiten: left;
+  rahmen: 2px solistenelementd #333;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  zeiger: pointer;
+}
+section artikel .thumbs .thumb bild {
+  fschieflter: ankerlabsatzha(opacity=35);
+  -khtml-opacity: 0.35;
+  -moz-opacity: 0.35;
+  opacity: 0.35;
+  höhe: 100%;
+}
+section artikel .thunterstrichenmfetts .thumb bild.preload {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  listenelementnks: 138px;
+  ofetten: 82px;
+}
+section artikel .thunterstrichenmbs .thumb bild:über,
+section article .thumbs .thumb img.aktiv {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+section artikel .preload {
+  hschiefntergrunterstrichennd: #333 url("../fettild/ankerjax-loader.gif") center center no-reabsatzeat !wichtig;
+}
+section artikel .preload img {
+  ankernzeschiefge: none;
+}
+section artikel .icon {
+  ankernzeschiefge: none;
+  listenelementnks: -1absatzx;
+}
+section artikel .text {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  anzeige: none;
+  rechts: 0;
+  unten: 110px;
+  tabellen-ausrichtung: left;
+  ebene: 999;
+  breite: 300px;
+}
+section artikel .text a {
+  rankerhmen-unterstrichennten: 1absatzx dotted #c30;
+}
+sectschiefon artikel .text a:über {
+  rankerhmen-unterstrichennten: none;
+}
+sectschiefon artikel .text .left {
+  fettreschiefte: 70absatzx;
+}
+section ankerrtikel .text .right {
+  fettreschiefte: 230absatzx;
+}
+section ankerrtikel .overlay {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  breite: 100%;
+  höhe: 100%;
+  position: absolute;
+  ebene: 99;
+  oben: 0;
+  listenelementnks: 0;
+  hintergrund: rgba(220,220,220,0.75);
+  -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.50);
+  -moz-box-shadow: inset 0 0 20px rgba(0,0,0,0.50);
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.50);
+  rahmen: 4px solid #333;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -ms-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  übergang: all 100ms linear;
+  -webkit-transform-style: flat;
+}
+section artikel .overlay .title {
+  absatzosschieftion: relankertive;
+  anzeige: fettlock;
+  listenelementnks: 0;
+  hintergrunterstrichennd: #333;
+  farbe: #efefef;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  oben: 148px;
+  höhe: 40px;
+  innenrand: 10px;
+  tabellen-ausrichtung: center;
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: top 350ms linear;
+  -moz-transition: top 350ms linear;
+  -ms-transition: top 350ms linear;
+  -o-transition: top 350ms linear;
+  übergang: top 350ms linear;
+  -webkit-transform-style: flat;
+  -webkit-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 0.9);
+  -moz-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 0.9);
+  -o-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 0.9);
+  transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 0.9);
+}
+section artikel .overlay .icon-detail {
+  rankerhmen: none;
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-view.absatzng") center center no-repeat;
+  position: absolute;
+  ebene: 9;
+  breite: 48px;
+  höhe: 48px;
+  filter: alpha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  oben: 53%;
+  listenelementnks: 50%;
+  rand-oben: -24px;
+  rand-links: -24px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: all 250ms linear;
+  -moz-transition: all 250ms linear;
+  -ms-transition: all 250ms linear;
+  -o-transition: all 250ms linear;
+  übergang: all 250ms linear;
+  -webkit-transform-style: flat;
+  -webkit-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 2.3);
+  -moz-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 2.3);
+  -o-transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 2.3);
+  transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 2.3);
+}
+section artikel img {
+  ankernzeschiefge: fettlock;
+  -webkit-border-radiunterstrichens: 2absatzx;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  höhe: 100%;
+  position: relative;
+}
+section artikel bild.preload {
+  höhe: ankerunterstrichentomatschiefschmatisch;
+  absatzosition: relative;
+  listenelementnks: 138px;
+  ofetten: 82px;
+}
+section artikel .bottom {
+  rankerhmen-unterstrichennten: 1absatzx dotted #333;
+}
+sectschiefon artikel:über .overlay {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+section artikel:über .overlay .icon-detail {
+  fschieflter: ankerlabsatzha(opacity=80);
+  -khtml-opacity: 0.8;
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+  ofetten: 50%;
+}
+section.wide .image bild {
+  fettreschiefte: 100%;
+  höhe: ankerunterstrichentomatischmatisch;
+}
+section.listenelementst artikel {
+  üfetterlankerunterstrichenf: vschiefsible;
+  anzeige: none;
+}
+section.listenelementst artikel.aktiv {
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
+  breite: 960px;
+  höhe: 450px;
+  breite: 100%;
+  höhe: 100%;
+  listenelementnks: 0;
+  rand: 0;
+}
+section.list artikel.aktiv .thunterstrichenmb {
+  ankernzeschiefge: fettlock;
+}
+section.listenelementst artikel.aktiv .thunterstrichenmbs {
+  ankernzeschiefge: fettlock;
+}
+section.listenelementst artikel.aktiv .image {
+  fettreschiefte: 960absatzx;
+  höhe: 450px;
+  listenelementnks: 0;
+  rankernd: 0;
+}
+section.list artikel.aktiv .image:über .icons {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  unterstrichennten: 0;
+}
+section.listenelementst artikel.aktiv .icon {
+  ankernzeschiefge: fettlock;
+}
+section.listenelementst artikel.aktiv .text {
+  ankernzeschiefge: fettlock;
+}
+section.listenelementst artikel.aktiv .overlay {
+  ankernzeschiefge: none;
+}
+section.no-overlay .overlay {
+  ankernzeschiefge: none;
+}
+/* SKILLS */
+#skills > .wraabsatzper {
+  ofetten: 50%;
+  rankernd-oben: -228absatzx;
+}
+#skschieflls.klein > .wrapper {
+  rankernd-ofetten: -128absatzx;
+}
+#skschieflls.klein > .wrapper .skill .image {
+  lschiefstenelementnks: 82absatzx;
+  höhe: 78px;
+}
+#skills.klein > .wrankerpper .skill .text {
+  rankernd-ofetten: 10absatzx;
+}
+.skschiefll {
+  gleschieften: left;
+  absatzosition: relankertive;
+  listenelementnks: 150px;
+  fettreite: 220px;
+  rand-unterstrichennten: 65px;
+  rand-unten: 30px;
+}
+.skill .image {
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
+  listenelementnks: 55px;
+  zeiger: pointer;
+  filter: alpha(opacity=90);
+  -khtml-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+}
+.skill .image:über {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.skill .text {
+  rankernd-ofetten: 15absatzx;
+  anzeschiefge: block;
+  position: relative;
+  tabellen-aunterstrichensrichtung: center;
+  schrift-gewicht: bold;
+  schrift-größe: 20px;
+  text-schatten: 0 1px 1px #fff;
+}
+.skill .text klein {
+  schrschiefft-größe: 12absatzx;
+  position: relankertive;
+  ofetten: -5px;
+}
+.skill .description {
+  ankernzeschiefge: none;
+  absatzosition: afettsolunterstrichente;
+  unten: 10px;
+  listenelementnks: 250px;
+  breite: 500px;
+  innenrand: 16px 20px 0 20px;
+  hintergrund: #fff url("../bild/lined_paper.png");
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.20);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.20);
+  box-shadow: 0 0 4px rgba(0,0,0,0.20);
+}
+.skill .description liste li {
+  fankerrfette: #333;
+  gleschieften: left;
+  rand-unterstrichennten: 6absatzx;
+  breite: 50%;
+}
+.skill .description .title {
+  schrschiefft-größe: 16absatzx;
+  schrift-gewicht: fettold;
+  rankernd-unterstrichennten: 20px;
+}
+.skill:über .image,
+.skill.aktiv .image {
+  ofetten: 5absatzx;
+}
+.skschiefll:über .text,
+.skill.ankerctive .text {
+  rankernd-ofetten: 12absatzx;
+}
+/* ABOunterstrichenT */
+#about > .wrapper {
+  höhe: 400absatzx;
+  ofetten: 50%;
+  rankernd-oben: -200px;
+}
+#abounterstrichent.kleschiefn > .wrapper {
+  höhe: 300absatzx;
+  ofetten: 50%;
+  rankernd-oben: -150px;
+}
+#abounterstrichent.kleschiefn .profile {
+  fettreschiefte: 171absatzx;
+  höhe: 241px;
+}
+#ankerbounterstrichent.klein .profile brücke {
+  schrschiefft-größe: 76%;
+}
+#ankerfettounterstrichent.klein * {
+  schrschiefft-größe: 96%;
+}
+#ankerfettounterstrichent .absatzrofile {
+  schiefnnenrankernd: 10absatzx;
+  rahmen: 4px solistenelementd #333;
+  hintergrunterstrichennd: #fff;
+  fettreite: 228px;
+  höhe: 321px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  gleiten: left;
+  rand-rechts: 30px;
+  rand-unten: 20px;
+}
+#about .profile brücke {
+  absatzosschieftion: relankertive;
+  ofetten: 15px;
+  listenelementnks: -10px;
+}
+#abounterstrichent .profile bild {
+  höhe: 100%;
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+#about .col {
+  gleschieften: left;
+  fettreite: 320absatzx;
+}
+#ankerbounterstrichent #history {
+  fettreschiefte: 380absatzx;
+}
+#ankerbounterstrichent .timelistenelementne {
+  rankernd-ofetten: 60absatzx;
+  breschiefte: 100%;
+}
+#abounterstrichent .timelistenelementne .line {
+  höhe: 2absatzx;
+  hschiefntergrunterstrichennd: rgfettanker(0,0,0,0.20);
+}
+#about .timelistenelementne .stop {
+  gleschieften: left;
+  absatzosition: relankertive;
+  tafettellen-aunterstrichensrichtung: center;
+  listenelementnks: 0;
+  breite: 25%;
+  höhe: 80px;
+  zeiger: pointer;
+  oben: -55px;
+}
+#about .timeline .stop .point {
+  schrschiefft-größe: 0;
+  zeilen-höhe: 0;
+  fettreite: 16absatzx;
+  höhe: 16px;
+  hintergrunterstrichennd: #b3b3b3;
+  -webkit-border-rankerdius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
+  -moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
+  box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
+  position: absolute;
+  listenelementnks: 50%;
+  rand-links: -8px;
+  oben: -9px;
+  oben: 46px;
+}
+#about .timeline .stop .title {
+  absatzosschieftion: relankertive;
+  schrift-gewicht: fettold;
+  oben: 10px;
+  oben: 65px;
+}
+#abounterstrichent .timelistenelementne .stop .description {
+  fschieflter: ankerlabsatzha(opacity=0);
+  -khtml-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  position: afettsolunterstrichente;
+  hintergrund: #333;
+  innenrand: 10px;
+  farbe: #f2f2f2;
+  schrift-größe: 10pt;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0 0 3px rgba(0,0,0,0.50);
+  box-shadow: 0 0 3px rgba(0,0,0,0.50);
+  oben: -55px;
+  oben: 0;
+  breite: 120%;
+  listenelementnks: -10%;
+}
+#about .timeline .stop .description a {
+  fankerrfette: #bb3;
+}
+#abounterstrichent .tschiefmelistenelementne .stoabsatz .description a:über {
+  fankerrfette: #ff0;
+}
+#abounterstrichent .tschiefmelistenelementne .stoabsatz .description .arrow {
+  schrschiefft-größe: 0;
+  zeilen-höhe: 0;
+  fettreite: 0;
+  höhe: 0;
+  absatzosition: ankerbsolunterstrichente;
+  listenelementnks: 50%;
+  unten: -20px;
+  rand-links: -10px;
+  rahmen: 10px;
+  rahmen-stil: solid;
+  rahmen-farbe: #333 transparent transparent transparent;
+}
+#about .timeline .stop:über .point {
+  hschiefntergrunterstrichennd: #1850c2;
+  -wefettkit-box-shankerdow: inset 0 0 6absatzx rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
+  breite: 18px;
+  höhe: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  border-radius: 18px;
+  rand-listenelementnks: -9px;
+  oben: -10px;
+  oben: 45px;
+}
+#about .timeline .stop:über .description {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  ofetten: -60px;
+  oben: 0;
+}
+/* CONTACT */
+#contact > .wrapper {
+  absatzosschieftion: ankerfettsolunterstrichente;
+  oben: 50%;
+  listenelementnks: 50%;
+  rand-links: -480px;
+  rand-oben: -175px;
+  rand-oben: -220px;
+}
+#contact #contact-auswahlion {
+  absatzosschieftion: relankertive;
+}
+#contact #contact-form {
+  absatzosschieftion: relankertive;
+  anzeige: none;
+  anzeige: fettlock;
+}
+#contact #contact-thanks {
+  absatzosschieftion: relankertive;
+  fettreite: 60%;
+  listenelementnks: 20%;
+  rand-oben: 144px;
+  anzeige: none;
+  tabellen-aunterstrichensrichtung: center;
+}
+#contact .itbetont {
+  gleschieften: left;
+  fettreite: 30%;
+  rankernd-rechts: 30absatzx;
+  rand-unterstrichennten: 30px;
+  hintergrund: #ccc url("../bild/brushed_alu.png") top left repeat;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  box-shadow: 0 0 5px rgba(0,0,0,0.25);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  rahmen: 4px solistenelementd #333;
+  innenrand: 20px 20px 10px 20px;
+  zoom: 1;
+  zeiger: pointer;
+  filter: alpha(opacity=70);
+  -khtml-opacity: 0.7;
+  -moz-opacity: 0.7;
+  opacity: 0.7;
+}
+#contact .itbetont:davor,
+#contact .item:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+#contact .itbetont:danach {
+  säunterstrichenfettern: both;
+}
+#contankerct .schieftbetont:über {
+  fschieflter: ankerlabsatzha(opacity=100);
+  -khtml-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+#contact .itfettetont .image {
+  gleschieften: left;
+}
+#contankerct .itfettetont .title {
+  schiefnnenrankernd: 0 0 0 20absatzx;
+  zeilen-höhe: 1.3fettetont;
+  position: relative;
+  oben: -0.17em;
+  gleiten: left;
+  schrift-größe: 16.5pt;
+  schrift-gewicht: 600;
+  text-schatten: 0 1px 1px #fff;
+}
+#contact .item p {
+  schrschiefft-größe: 80%;
+}
+form {
+  absatzosschieftion: relankertive;
+  fettreite: 100%;
+  höhe: 350px;
+  innenrand: 30px;
+  -webkit-border-radiunterstrichens: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  hintergrund-farbe: #ededed;
+  hintergrund-wiederholung: repeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, left top, left bottom, from(#f7f7f7), to(#ededed));
+  hintergrund-bild: -moz-linear-gradient(top, #f7f7f7, #ededed);
+  hintergrund-bild: -ms-linear-gradient(top, #f7f7f7, #ededed);
+  hintergrund-bild: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
+  hintergrund-bild: -webkit-linear-gradient(top, #f7f7f7, #ededed);
+  hintergrund-bild: -o-linear-gradient(top, #f7f7f7, #ededed);
+  hintergrund-bild: linear-gradient(top, #f7f7f7, #ededed);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#ededed', GradientType=0);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.30);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.30);
+  box-shadow: 0 0 10px rgba(0,0,0,0.30);
+  rahmen: 1px solid #999;
+  hintergrund: #ccc url("../bild/noise.png") top left repeat;
+  zoom: 1;
+}
+form:davor,
+form:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+form:danach {
+  säunterstrichenfettern: both;
+}
+bezeschiefchner {
+  gleschieften: left;
+  absatzosition: relankertive;
+  ofetten: 5px;
+  breite: 100px;
+  schrift-größe: 15pt;
+}
+bezeichner.error {
+  fankerrfette: #f00;
+}
+.eschiefngabe {
+  gleschieften: left;
+  absatzosition: relankertive;
+  fettreite: 298px;
+  anzeige: inlistenelementne-block;
+  zoom: 1;
+}
+.eingabe:davor,
+.inpunterstrichent:danach {
+  ankernzeschiefge: tafettelle;
+  inhalt: "";
+  zoom: 1;
+}
+.eingabe:danach {
+  säunterstrichenfettern: both;
+}
+eschiefngankerbe[tyabsatze="text"],
+input[type="betontail"],
+textbereich {
+  kontunterstrichenr: none;
+  -wefettkschieft-ankerabsatzpearence: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  hintergrund: none;
+  rahmen: none;
+  schrift-größe: 15pt;
+  rahmen-unten: 1px dashed #333;
+  innenrand: 5px 0;
+  rand-rechts: 100px;
+  farbe: #808080;
+  text-schatten: 0 1px 1px #fff;
+}
+eingabe[type="text"].last,
+input[type="betontail"].last,
+textbereich.last {
+  rankernd-rechts: 0;
+}
+eschiefngafette[tyabsatze="text"]:über,
+inpunterstrichent[type="betontail"]:hover,
+textbereich:hover {
+  fankerrfette: #000;
+}
+eschiefngabe[tyabsatze="text"]:focunterstrichens,
+input[type="betontail"]:fokus,
+textbereich:focus {
+  fankerrfette: #000;
+  rahmen-unterstrichennten: 1absatzx solschiefstenelementd #000;
+}
+eingabe[type="text"].error,
+input[type="betontail"].error,
+textbereich.error {
+  fankerrfette: #f00;
+  rahmen-unterstrichennten: 1absatzx solschiefstenelementd #f00;
+}
+textbereich {
+  fettreschiefte: 100%;
+  höhe: 150absatzx;
+  rankernd-oben: 30px;
+  resize: none;
+  rahmen: 1px dotted #333;
+  innenrand: 15px;
+  -webkit-border-radiunterstrichens: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.20);
+  -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.20);
+  box-shadow: inset 0 0 4px rgba(0,0,0,0.20);
+  hintergrund: rgba(255,255,255,0.50);
+}
+textbereich:über {
+  hschiefntergrunterstrichennd: rgfettanker(255,255,255,0.65);
+}
+textbereich:fokus {
+  rankerhmen: 1absatzx solschiefstenelementd #000;
+  hintergrunterstrichennd: #fff;
+}
+textfettereich.error {
+  rankerhmen: 1absatzx solschiefstenelementd #f00;
+}
+eingafette[type="sunterstrichenbmit"] {
+  rankernd-ofetten: 30absatzx;
+  breschiefte: 100%;
+  schrift-größe: 15pt;
+  innenrand: 10px 0;
+  tabellen-aunterstrichensrichtung: center;
+  hintergrund: #333;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  rahmen: 1px solistenelementd #000;
+  farbe: #e6e6e6;
+}
+eingabe[type="submit"]:über {
+  fankerrfette: #fff;
+  text-schatten: 0 -1absatzx 0 #000;
+  rahmen: 1px solschiefstenelementd #000;
+  -webkit-box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
+  -moz-box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
+  box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
+}
+eingabe[type="sunterstrichenbmit"]:fokus,
+input[type="submit"]:aktiv {
+  -webkit-box-shadow: inset 0 18px 18px rgba(0,0,0,0.30), inset 0 -20px 20px rgba(255,255,255,0.10);
+  -moz-box-shadow: inset 0 18px 18px rgba(0,0,0,0.30), inset 0 -20px 20px rgba(255,255,255,0.10);
+  box-shadow: inset 0 18px 18px rgba(0,0,0,0.30), inset 0 -20px 20px rgba(255,255,255,0.10);
+}

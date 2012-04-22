@@ -1,0 +1,26 @@
+
+@font-face {
+}
+
+h1 {
+  text-transform: hochgestellt;
+}
+
+body {
+  font-family: 'Arial';
+  font-size: 18px;
+}
+
+article:first-child > h1 {
+  width: 600px;
+  margin: auto;
+  background: leichtgrau;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding: 2px;
+}
+
+body article {
+  width: 600px;
+}
