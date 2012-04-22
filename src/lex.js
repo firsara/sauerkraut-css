@@ -190,6 +190,9 @@ var SauerkrautLex = exports = module.exports = (function(){
     , 'blue': 'blau'
     , 'orange': 'orange'
     , 'auto': 'automatisch'
+    , 'left': 'links'
+    , 'right': 'right'
+    , 'none': 'keines'
     , '!important': '!wichtig'
     }
   };
