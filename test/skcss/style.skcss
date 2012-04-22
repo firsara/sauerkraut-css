@@ -1,14 +1,18 @@
 @import 'typo';
 
 körper {
-  schriftgröße: 18px;
+  schrift-familie: 'Arial';
+  schrift-größe: 18px;
 }
 
 artikel:erstes-kind > ü1 {
   breite: 600px;
-  aussenabstand: automatisch;
+  rand: automatisch;
   hintergrund: leichtgrau;
-  innenabstand: 2px 10px;
+  innenrand-links: 2px;
+  innenrand-rechts: 2px;
+  innenrand-oben: 2px;
+  innenrand: 2px;
 }
 
 körper artikel {

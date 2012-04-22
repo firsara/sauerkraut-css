@@ -3,5 +3,5 @@
 }
 
 ü1 {
-  schrifttransormation: hochgestellt;
+  text-transformation: hochgestellt;
 }

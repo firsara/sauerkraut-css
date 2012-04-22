@@ -1,22 +1,26 @@
 
-@font-face {
+@schrift-gesicht {
 }
 
-h1 {
-  schrifttransormation: hochgestellt;
+ü1 {
+  text-transform: hochgestellt;
 }
 
-body {
-  schriftgröße: 18px;
+körper {
+  font-family: 'Arial';
+  font-size: 18px;
 }
 
-article:first-child > h1 {
-  breite: 600px;
-  aussenabstand: automatisch;
+artikel:first-child > ü1 {
+  width: 600px;
+  margin: automatisch;
   background: leichtgrau;
-  innenabstand: 2px 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding: 2px;
 }
 
-body article {
-  breite: 600px;
+körper artikel {
+  width: 600px;
 }
