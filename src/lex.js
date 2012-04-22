@@ -191,6 +191,7 @@ var SauerkrautLex = exports = module.exports = (function(){
     , 'orange': 'orange'
     , 'auto': 'automatisch'
     , 'left': 'links'
+    , 'bold': 'fett'
     , 'right': 'right'
     , 'none': 'keines'
     , '!important': '!wichtig'
