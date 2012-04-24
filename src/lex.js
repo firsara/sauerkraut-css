@@ -188,12 +188,17 @@ var SauerkrautLex = exports = module.exports = (function(){
       'red': 'rot'
     , 'green': 'grün'
     , 'blue': 'blau'
+    , 'grey': 'grau'
     , 'orange': 'orange'
     , 'auto': 'automatisch'
     , 'left': 'links'
     , 'bold': 'fett'
     , 'right': 'right'
     , 'none': 'keines'
+    , 'solid': 'durchgezogen'
+    , 'relative': 'relativ'
+    , 'absolute': 'absolut'
+    , 'static': 'statisch'
     , '!important': '!wichtig'
     }
   };
