@@ -33,9 +33,6 @@ var phpHeaders = "<?php header('Content-Type: text/javascript; charset=utf-8'); 
 fs.writeFile(__dirname+'/dist/sauerkraut.js', output);
 fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.js', output);
 
-fs.writeFile(__dirname+'/dist/sauerkraut-server.php', phpHeaders + output);
-fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'-server.php', phpHeaders + output);
-
 console.log('Successfully compiled v-' + config.version.toString());
 
 
@@ -52,10 +49,7 @@ try
 
   fs.writeFile(__dirname+'/dist/sauerkraut.min.js', output);
   fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'.min.js', output);
-
-  fs.writeFile(__dirname+'/dist/sauerkraut-server.min.php', phpHeaders + output);
-  fs.writeFile(__dirname+'/dist/sauerkraut-'+config.version.toString()+'-server.min.php', phpHeaders + output);
-
+  
 	console.log('Successfully minified v-' + config.version.toString());
 }
 catch(e)

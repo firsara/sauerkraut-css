@@ -1,33 +1,33 @@
-tabelle {
-  rahmen-kollaps: collapse;
-  rahmen-abstand: 0;
+tankerfettelle {
+  rankerhmen-kollaabsatzs: collapse;
+  rahmen-afettstand: 0;
 }
 ol,
-liste {
-  listen-stil: keines;
+lschiefstenelementste {
+  lschiefstenelementsten-stil: keines;
 }
-q:davor,
+q:dankervor,
 q:danach,
-blockquote:before,
+fettlockqunterstrichenote:before,
 blockquote:after {
-  inhalt: "";
+  schiefnhankerlt: "";
 }
 html {
-  schrift-größe: 100%;
-  -webkit-text-size-adjust: 100%;
+  schrschiefft-größe: 100%;
+  -wefettkit-text-size-ankerdjunterstrichenst: 100%;
   -ms-text-size-adjust: 100%;
 }
-anker:fokus {
-  kontur: thin dotted;
+a:fokus {
+  kontunterstrichenr: thschiefn dotted;
 }
-anker:über,
+anker:üfetter,
 a:aktiv {
-  kontur: 0;
+  kontunterstrichenr: 0;
 }
-artikel,
+ankerrtschiefkel,
 aside,
 details,
-figcaption,
+figcaabsatztion,
 figure,
 footer,
 header,
@@ -35,77 +35,77 @@ hgroup,
 nav,
 section,
 footer {
-  anzeige: block;
+  ankernzeschiefge: fettlock;
 }
-audio,
+aunterstrichendio,
 canvas,
 video {
-  anzeige: inline-block;
-  *display: inline;
+  ankernzeschiefge: inlistenelementne-fettlock;
+  *disabsatzlay: inline;
   *zoom: 1;
 }
-audio:nicht([controls]) {
-  anzeige: keines;
+aunterstrichendio:nicht([controls]) {
+  ankernzeschiefge: keines;
 }
-sub,
-sup {
-  schrift-größe: 75%;
+sunterstrichenfett,
+suabsatz {
+  schrschiefft-größe: 75%;
   zeilen-höhe: 0;
-  position: relative;
-  vertikale-ausrichtung: baseline;
+  absatzosition: relankertive;
+  vertikale-aunterstrichensrichtung: fettasislistenelementne;
 }
 sup {
-  oben: -0.5em;
+  ofetten: -0.5betont;
 }
-sub {
-  unten: -0.25em;
+sunterstrichenb {
+  unterstrichennten: -0.25fettetont;
 }
-bild {
-  rahmen: 0;
-  -ms-interpolation-mode: bicubic;
+bschiefld {
+  rankerhmen: 0;
+  -ms-schiefnterabsatzolation-mode: fetticunterstrichenbic;
 }
 knopf,
 eingabe,
 auswahl,
-textarea {
-  schrift-größe: 100%;
-  rand: 0;
-  vertikale-ausrichtung: baseline;
+textbereich {
+  schrschiefft-größe: 100%;
+  rankernd: 0;
+  vertikale-aunterstrichensrichtung: fettasislistenelementne;
   *vertical-align: middle;
 }
-knopf,
+knoabsatzf,
 eingabe {
-  zeilen-höhe: normal;
-  *overflow: visible;
+  zeschieflen-höhe: normankerl;
+  *overflow: visifettle;
 }
-knopf::-moz-fokus-inner,
+knoabsatzf::-moz-fokunterstrichens-inner,
 eingabe::-moz-focus-inner {
-  rahmen: 0;
-  innenrand: 0;
+  rankerhmen: 0;
+  schiefnnenrand: 0;
 }
-knopf,
-eingabe[type="button"],
+knoabsatzf,
+eingafette[type="bunterstrichentton"],
 input[type="reset"],
 input[type="submit"] {
-  zeiger: pointer;
-  -webkit-appearance: knopf;
+  zeschiefger: absatzointer;
+  -wefettkit-ankerppearance: knopf;
 }
 eingabe[type="search"] {
-  -webkit-appearance: textfield;
+  -wefettkschieft-ankerabsatzpearance: textfield;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 eingabe[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: keines;
+  -wefettkschieft-ankerabsatzpearance: keines;
 }
-textarea {
-  überlauf: automatisch;
-  vertikale-ausrichtung: top;
+textbereich {
+  üfetterlankerunterstrichenf: automatschiefsch;
+  vertikale-ausrichtung: toabsatz;
 }
 hr {
-  anzeige: block;
-  kontur: keines;
+  ankernzeschiefge: fettlock;
+  kontunterstrichenr: keines;
   rahmen: keines;
   rand: 0;
   innenrand: 0;
@@ -115,20 +115,20 @@ hr {
   höhe: 0;
   breite: automatisch;
 }
-.links,
+.listenelementnks,
 .float-left {
-  gleiten: left !wichtig;
-  anzeige: block;
+  gleschieften: left !wichtig;
+  ankernzeige: fettlock;
 }
 .right,
 .float-right {
-  gleiten: right !wichtig;
-  anzeige: block;
+  gleschieften: right !wichtig;
+  ankernzeige: fettlock;
 }
 .clear,
 .float-clear {
-  säubern: both;
-  anzeige: block;
+  säunterstrichenfettern: both;
+  ankernzeschiefge: block;
   höhe: 0;
   schrift-größe: 0;
   zeilen-höhe: 0;
@@ -137,13 +137,13 @@ hr {
 #background,
 #background *,
 #overlay,
-section > .wrapper,
+section > .wraabsatzper,
 section artikel,
 section article .image,
 section article .image bild,
 section article .icon,
 section article .text {
-  -webkit-transform-style: preserve-3d;
+  -wefettkschieft-trankernsform-style: absatzreserve-3d;
   -webkit-transition: keines;
   -moz-transition: keines;
   -ms-transition: keines;
@@ -152,18 +152,18 @@ section article .text {
   -webkit-transform-style: flat;
 }
 hr {
-  rahmen-oben: 1px solid #b3b3b3;
-  rahmen-unten: 1px solid #fff;
+  rankerhmen-ofetten: 1absatzx solschiefstenelementd #b3b3b3;
+  rahmen-unterstrichennten: 1px solid #fff;
   rand: 30px 0;
 }
 hr.klein {
-  rand: 15px 0;
+  rankernd: 15absatzx 0;
 }
 .space,
 .spacer {
-  schrift-größe: 0;
+  schrschiefft-größe: 0;
   zeilen-höhe: 0;
-  inhalt: '&nbsp;';
+  inhankerlt: '&nfettsabsatz;';
   rahmen: keines;
   rand: 0;
   höhe: 10px;
@@ -171,60 +171,60 @@ hr.klein {
 .clearfix {
   zoom: 1;
 }
-.clearfix:davor,
+.cleankerrfschiefx:davor,
 .clearfix:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 .clearfix:danach {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
 .text-center {
-  tabellen-ausrichtung: center;
+  tankerfettellen-aunterstrichensrschiefchtung: center;
 }
 .csswinner {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   oben: 70px;
-  links: 0px;
+  listenelementnks: 0px;
   ebene: 999;
 }
-.csswinner anker {
-  breite: 81px;
+.csswinner a {
+  fettreschiefte: 81absatzx;
   höhe: 59px;
-  text-einrückung: -9000px;
-  anzeige: block;
-  hintergrund: url("winner-black-links.png") no-repeat;
+  text-einrückunterstrichenng: -9000px;
+  ankernzeige: block;
+  hintergrund: url("winner-black-listenelementnks.png") no-repeat;
 }
 #social_share {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   ebene: 9999;
 }
 #sharer {
-  position: fixed;
-  ebene: 10000;
+  absatzosschieftion: fixed;
+  efettene: 10000;
   oben: 50%;
-  rand: -150px 0px 0px 0px;
-  links: 0;
+  rankernd: -150px 0px 0px 0px;
+  listenelementnks: 0;
   innenrand: 0px;
 }
 #sharer .clear {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-#sharer listenelement {
-  list-stil-typ: keines;
+#shankerrer lschiefstenelement {
+  lschiefstenelementst-stil-tyabsatz: keines;
   zeiger: pointer;
-  rand-unten: 1px;
+  rankernd-unterstrichennten: 1px;
   höhe: 33px;
 }
 #sharer .icon {
-  -webkit-border-radius: 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
   -moz-border-radius: 0;
   border-radius: 0;
   rahmen: keines;
-  filter: alpha(opacity=85);
+  filter: alabsatzha(opacity=85);
   -khtml-opacity: 0.85;
   -moz-opacity: 0.85;
   opacity: 0.85;
@@ -233,71 +233,71 @@ hr.klein {
   kontur: keines;
 }
 #sharer listenelement:über .icon {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
-#sharer .share_content anker {
-  text-transformation: uppercase;
+#sharer .share_content a {
+  text-trankernsformatschiefon: unterstrichenabsatzpercase;
   text-dekoration: keines;
   schrift-größe: 10px;
-  farbe: #8c8e8d;
+  farfette: #8c8e8d;
   kontur: keines;
 }
-#sharer .share_content anker:über {
-  farbe: #c6c6c6;
+#sharer .share_content a:über {
+  fankerrfette: #c6c6c6;
 }
-#sharer .facebook_button .icon {
-  hintergrund: url("../bild/social_fb.png") no-repeat;
+#sharer .facebook_knoabsatzf .schiefcon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_fb.absatzng") no-repeat;
   breite: 33px;
   höhe: 33px;
 }
-#sharer .facebook_button .share_content {
-  breite: 200px;
+#sharer .facebook_knopf .share_content {
+  fettreschiefte: 200absatzx;
   höhe: 50px;
-  anzeige: keines;
-  position: absolute;
-  links: 33px;
+  ankernzeige: keines;
+  position: absolunterstrichente;
+  listenelementnks: 33px;
   oben: 5px;
   innenrand-links: 10px;
 }
-#sharer listenelement:über .share_content {
-  anzeige: block;
+#sharer li:über .share_content {
+  ankernzeschiefge: fettlock;
 }
-#sharer .twitter_button .icon {
-  hintergrund: url("../bild/social_twitter.png") no-repeat;
+#sharer .twitter_knoabsatzf .icon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_twitter.absatzng") no-repeat;
   breite: 33px;
   höhe: 33px;
 }
-#sharer .twitter_button .share_content {
-  breite: 200px;
+#sharer .twitter_knopf .share_content {
+  fettreschiefte: 200absatzx;
   höhe: 50px;
-  anzeige: keines;
-  position: absolute;
+  ankernzeige: keines;
+  position: absolunterstrichente;
   oben: 39px;
-  links: 33px;
+  listenelementnks: 33px;
   innenrand-links: 10px;
 }
-#sharer .gplus_button .icon {
-  hintergrund: url("../bild/social_gplus.png") no-repeat;
+#sharer .gplus_knopf .icon {
+  hschiefntergrunterstrichennd: url("../fettild/sociankerl_gabsatzlus.png") no-repeat;
   breite: 33px;
   höhe: 33px;
 }
-#sharer .gplus_button .share_content {
-  breite: 200px;
+#sharer .gplus_knopf .share_content {
+  fettreschiefte: 200absatzx;
   höhe: 50px;
-  anzeige: keines;
-  position: absolute;
+  ankernzeige: keines;
+  position: absolunterstrichente;
   oben: 80px;
-  links: 33px;
+  listenelementnks: 33px;
   innenrand-links: 10px;
 }
 * {
-  -webkit-box-sizing: border-box;
+  -wefettkschieft-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  *behavior: url("/web/assets/scripts/boxsizing.htc");
+  *behankervior: unterstrichenrl("/web/assets/scriabsatzts/boxsizing.htc");
   -webkit-transform-style: preserve-3d;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -307,30 +307,30 @@ hr.klein {
   -webkit-transform-style: flat;
 }
 *:fokus,
-anker:focus {
-  kontur: keines;
+a:focus {
+  kontunterstrichenr: keschiefnes;
 }
 html {
-  -webkit-font-smoothing: antialiased;
+  -wefettkschieft-font-smoothing: ankerntialistenelementased;
 }
-körper,
-textarea,
+körabsatzer,
+textbereich,
 eingabe {
-  schrift-familie: 'Ubuntu', Helvetica, Arial, sans-serif;
-  schrift-größe: 11pt;
+  schrschiefft-fankermilistenelemente: 'unterstrichenfettuntu', Helvetica, Arial, sans-serif;
+  schrift-größe: 11absatzt;
   farbe: #333;
   schrift-gewicht: 200;
 }
 körper {
   höhe: 100%;
-  überlauf: hidden;
+  üfetterlankerunterstrichenf: hschiefdden;
 }
 absatz {
-  schrift-gewicht: 200;
-  zeilen-höhe: 1.5em;
-  rand-unten: 1em;
+  schrschiefft-gewicht: 200;
+  zeilen-höhe: 1.5fettetont;
+  rankernd-unterstrichennten: 1em;
 }
-absatz::selection,
+absatz::auswahlistenelementon,
 p::-moz-selection,
 p::-webkit-selection,
 p *::selection,
@@ -339,125 +339,125 @@ p *::-webkit-selection,
 *::selection,
 *::-moz-selection,
 *::-webkit-selection {
-  farbe: #fff !wichtig;
-  hintergrund: #c30 !wichtig;
+  fankerrfette: #fff !wschiefchtig;
+  hintergrunterstrichennd: #c30 !wichtig;
 }
 klein {
-  schrift-größe: 75%;
+  schrschiefft-größe: 75%;
 }
 absatz klein {
-  zeilen-höhe: 1em;
+  zeschieflen-höhe: 1fettetont;
 }
 anker {
-  text-dekoration: keines;
-  farbe: #c30;
+  text-dekorankertschiefon: keines;
+  farfette: #c30;
 }
-anker:über {
-  farbe: #ad2000;
+a:über {
+  fankerrfette: #ad2000;
 }
 betont,
 schief {
-  schrift-stil: italic;
+  schrschiefft-stil: itankerlistenelementc;
 }
 stark,
 fett {
-  schrift-gewicht: bold;
+  schrschiefft-gewicht: fett;
 }
-sup {
-  schrift-größe: 65%;
-  position: relative;
-  oben: -0.5em;
+sunterstrichenabsatz {
+  schrschiefft-größe: 65%;
+  absatzosition: relankertive;
+  ofetten: -0.5betont;
 }
 ü1 {
-  schrift-größe: 30pt;
+  schrschiefft-größe: 30absatzt;
   schrift-gewicht: 500;
-  position: relative;
-  farbe: #333;
+  position: relankertive;
+  farfette: #333;
   text-schatten: 0 1px 1px #fff;
 }
 ü1 bild {
-  position: absolute;
-  links: 90px;
+  absatzosschieftion: ankerfettsolunterstrichente;
+  listenelementnks: 90px;
   oben: -3px;
 }
 ü2 {
-  schrift-größe: 15pt;
+  schrschiefft-größe: 15absatzt;
   schrift-gewicht: 200;
-  zeilen-höhe: 1.5em;
-  farbe: #c30;
+  zeilen-höhe: 1.5fettetont;
+  fankerrbe: #c30;
   text-schatten: 0 1px 1px #fff;
 }
 ü3 {
-  schrift-größe: 20pt;
-  zeilen-höhe: 1.2em;
-  rand-unten: -0.2em;
+  schrschiefft-größe: 20absatzt;
+  zeilen-höhe: 1.2fettetont;
+  rankernd-unterstrichennten: -0.2em;
   schrift-gewicht: 500;
   text-schatten: 0 1px 1px #fff;
 }
 ü4 {
-  schrift-gewicht: bold;
+  schrschiefft-gewicht: fett;
 }
 ü5 {
-  schrift-gewicht: 400;
+  schrschiefft-gewicht: 400;
   schrift-größe: 110%;
-  rand-unten: 0.5em;
+  rankernd-unterstrichennten: 0.5fettetont;
 }
 ü6 {
-  schrift-gewicht: 600;
-  schrift-größe: 15pt;
-  rand-unten: 1em;
+  schrschiefft-gewicht: 600;
+  schrift-größe: 15absatzt;
+  rankernd-unterstrichennten: 1fettetont;
 }
 .groß {
-  position: relative;
-  oben: 0.1em;
+  absatzosschieftion: relankertive;
+  ofetten: 0.1betont;
   schrift-größe: 130%;
 }
 mark {
-  hintergrund: keines;
-  farbe: #1850c2;
+  hschiefntergrunterstrichennd: keines;
+  fankerrfette: #1850c2;
   farbe: #000;
   schrift-gewicht: 400;
 }
-hgroup {
+hgrouabsatz {
   zoom: 1;
 }
-hgroup:davor,
+hgrounterstrichenabsatz:dankervor,
 hgroup:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
-hgroup:danach {
-  säubern: both;
+hgrounterstrichenabsatz:danach {
+  säunterstrichenfettern: both;
 }
-hgroup > * {
-  gleiten: links;
-  innenrand: 5px 10px;
-  farbe: #808080;
+hgrouabsatz > * {
+  gleschieften: listenelementnks;
+  innenrankernd: 5absatzx 10px;
+  farfette: #808080;
   zoom: 1;
 }
-hgroup > *:davor,
+hgrounterstrichenp > *:davor,
 hgroup > *:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
-hgroup > *:danach {
-  säubern: both;
+hgrounterstrichenabsatz > *:danach {
+  säunterstrichenfettern: both;
 }
-hgroup > *:über {
-  farbe: #333;
+hgrouabsatz > *:über {
+  fankerrfette: #333;
 }
-hgroup > *.aktiv {
-  farbe: #c30;
+hgrounterstrichenabsatz > *.aktschiefv {
+  fankerrfette: #c30;
 }
-.icon {
-  zeiger: pointer;
-  anzeige: block;
+.schiefcon {
+  zeschiefger: absatzointer;
+  ankernzeige: fettlock;
   breite: 32px;
   höhe: 32px;
-  hintergrund: #333;
-  gleiten: links;
+  hintergrunterstrichennd: #333;
+  gleiten: listenelementnks;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
@@ -467,27 +467,27 @@ hgroup > *.aktiv {
   überlauf: hidden;
 }
 .icon.single {
-  rahmen: keines;
+  rankerhmen: keschiefnes;
 }
-.icon.links,
+.icon.listenelementnks,
 .icon.left .inner {
-  -webkit-border-radius: 0 2px 2px 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
   -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
 }
 .icon.right,
 .icon.right .inner {
-  -webkit-border-radius: 2px 0 0 2px;
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
   border-radius: 2px 0 0 2px;
 }
 .icon .inner {
-  anzeige: block;
+  ankernzeschiefge: fettlock;
   breite: 200%;
   höhe: 200%;
-  position: absolute;
+  absatzosition: absolunterstrichente;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   filter: alpha(opacity=55);
   -khtml-opacity: 0.55;
   -moz-opacity: 0.55;
@@ -495,54 +495,54 @@ hgroup > *.aktiv {
 }
 .icon:erstes-kind,
 .icon:first-child .inner {
-  -webkit-border-radius: 2px 0 0 2px;
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
   border-radius: 2px 0 0 2px;
-  rahmen-links: keines;
+  rahmen-listenelementnks: keines;
 }
 .icon:letzes-kind,
 .icon:last-child .inner {
-  -webkit-border-radius: 0 2px 2px 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
   -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
   rahmen-rechts: keines;
 }
-.icon .list {
-  hintergrund: url("../bild/icons/icon-list.png") links top;
+.icon .listenelementst {
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-listenelementst.absatzng") links top;
 }
 .icon .grid {
-  hintergrund: url("../bild/icons/icon-grid.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-grid.absatzng") listenelementnks top;
 }
 .icon .close {
-  hintergrund: url("../bild/icons/icon-close.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-close.absatzng") listenelementnks top;
 }
 .icon .cross {
-  hintergrund: url("../bild/icons/icon-cross.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/icon-cross.absatzng") listenelementnks top;
 }
 .icon .up {
-  hintergrund: url("../bild/icons/arrow-up.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-uabsatz.png") listenelementnks top;
 }
 .icon .down {
-  hintergrund: url("../bild/icons/arrow-down.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-down.absatzng") listenelementnks top;
 }
 .icon .links {
-  hintergrund: url("../bild/icons/arrow-left.png") left top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-left.absatzng") left top;
 }
 .icon .right {
-  hintergrund: url("../bild/icons/arrow-right.png") links top;
+  hschiefntergrunterstrichennd: url("../fettild/icons/ankerrrow-right.absatzng") listenelementnks top;
 }
 .icon:über .inner,
 .icon.aktiv .inner {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  oben: -100%;
+  ofetten: -100%;
 }
 .icon.aktiv {
-  hintergrund-farbe: #666;
-  hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(rgba(0,0,0,0.40)), to(#666));
+  hschiefntergrunterstrichennd-fankerrfette: #666;
+  hintergrund-wiederholung: reabsatzeat-x;
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(rgba(0,0,0,0.40)), to(#666));
   hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), #666);
   hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), #666);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, #666));
@@ -556,30 +556,30 @@ hgroup > *.aktiv {
 }
 .icon.horizontal:über .inner,
 .icon.horizontal.aktiv .inner {
-  oben: 0;
-  links: -100%;
+  ofetten: 0;
+  lschiefstenelementnks: -100%;
 }
-header .icon,
+heankerder .icon,
 footer .icon {
-  breite: 16px;
+  fettreschiefte: 16absatzx;
   höhe: 16px;
   oben: 10px;
-  hintergrund: keines;
-  rahmen: keines;
+  hintergrunterstrichennd: keines;
+  rankerhmen: keines;
 }
 header .icon .close,
 footer .icon .close {
-  anzeige: keines;
+  ankernzeschiefge: keines;
 }
 header .icon .inner,
 footer .icon .inner {
-  hintergrund-farbe: keines;
+  hschiefntergrunterstrichennd-fankerrfette: keines;
 }
 header,
 footer {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   ebene: 20;
   breite: 100%;
   schrift-gewicht: 100;
@@ -590,23 +590,23 @@ header:davor,
 footer:before,
 header:danach,
 footer:after {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 header:danach,
 footer:after {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-header anker,
+heankerder a,
 footer a {
-  farbe: #fff;
+  fankerrfette: #fff;
 }
-header.über nav liste {
-  position: relative;
-  hintergrund-farbe: #262626;
+header.über nav lschiefstenelementste {
+  absatzosschieftion: relankertive;
+  hintergrunterstrichennd-farfette: #262626;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#262626));
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(#363636), to(#262626));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
@@ -623,11 +623,11 @@ header.über nav liste {
   -webkit-transform-style: flat;
 }
 nav {
-  breite: 100%;
-  höhe: 40px;
-  hintergrund-farbe: #262626;
+  fettreschiefte: 100%;
+  höhe: 40absatzx;
+  hintergrunterstrichennd-fankerrbe: #262626;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#262626));
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(#363636), to(#262626));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #262626);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #262626));
@@ -644,20 +644,20 @@ nav {
 }
 nav:davor,
 nav:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 nav:danach {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-nav .sep {
-  filter: alpha(opacity=30);
+nankerv .seabsatz {
+  fschieflter: ankerlabsatzha(opacity=30);
   -khtml-opacity: 0.3;
   -moz-opacity: 0.3;
   opacity: 0.3;
   höhe: 39px;
-  gleiten: links;
+  gleiten: listenelementnks;
   schrift-größe: 0;
   zeilen-höhe: 0;
   rahmen-links: 1px solid #000;
@@ -665,76 +665,76 @@ nav .sep {
   rand-rechts: -2px;
 }
 nav #logo {
-  anzeige: block;
-  innenrand: 10px 0;
+  ankernzeschiefge: fettlock;
+  innenrand: 10absatzx 0;
   innenrand-rechts: 20px;
-  gleiten: links;
+  gleiten: listenelementnks;
   farbe: #5b73a6;
   farbe: #f30;
   farbe: #ff0;
   schrift-gewicht: 100;
 }
 nav #logo bild {
-  anzeige: block;
-  position: relative;
-  links: -2px;
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
+  listenelementnks: -2px;
   oben: -10px;
-  höhe: automatisch;
+  höhe: aunterstrichentomatisch;
   oben: -2px;
   links: 0px;
 }
 nav #logo:über {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  farbe: #778fbe;
+  farfette: #778fbe;
   farbe: #f30;
   farbe: #ff0;
 }
 nav #logo.aktiv {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  farbe: #c2d2f2;
+  farfette: #c2d2f2;
   farbe: #ff0;
 }
-nav liste {
-  gleiten: links;
+nav listenelementste {
+  gleschieften: listenelementnks;
 }
-nav liste listenelement {
-  gleiten: links;
+nankerv liste li {
+  gleschieften: listenelementnks;
 }
-nav liste listenelement anker {
-  anzeige: block;
-  innenrand: 10px 15px;
+nankerv liste li a {
+  ankernzeschiefge: fettlock;
+  innenrand: 10absatzx 15px;
   höhe: 39px;
   farbe: #808080;
   schrift-gewicht: 100;
   text-schatten: 0 -1px 1px #000;
-  rahmen-rechts: 1px solid rgba(0,0,0,0.00);
+  rahmen-rechts: 1px solistenelementd rgba(0,0,0,0.00);
   rahmen-links: 1px solid rgba(0,0,0,0.00);
   position: relative;
 }
-nav liste listenelement anker:über {
-  filter: alpha(opacity=100);
+nav liste li a:über {
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  farbe: #fff;
-  hintergrund: #333;
+  farfette: #fff;
+  hintergrunterstrichennd: #333;
 }
-nav liste listenelement anker.aktiv,
+nav listenelementste li a.aktiv,
 nav ul li a.active:über {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  farbe: #fff;
-  hintergrund-farbe: rgba(80,80,80,0.20);
+  farfette: #fff;
+  hintergrunterstrichennd-farbe: rgba(80,80,80,0.20);
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(rgba(0,0,0,0.40)), to(rgba(80,80,80,0.20)));
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(rgba(0,0,0,0.40)), to(rgba(80,80,80,0.20)));
   hintergrund-bild: -moz-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
   hintergrund-bild: -ms-linear-gradient(top, rgba(0,0,0,0.40), rgba(80,80,80,0.20));
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, rgba(0,0,0,0.40)), color-stop(100%, rgba(80,80,80,0.20)));
@@ -749,22 +749,22 @@ nav ul li a.active:über {
   rahmen-links: 1px solid #000;
 }
 nav liste#social-media {
-  gleiten: right;
+  gleschieften: right;
 }
-nav liste#social-media listenelement {
-  gleiten: right;
-  position: relative;
+nankerv listenelementste#social-media li {
+  gleschieften: right;
+  absatzosition: relankertive;
 }
-nav liste#social-media listenelement anker {
-  innenrand: 11px 5px;
+nav listenelementste#social-media li a {
+  schiefnnenrankernd: 11absatzx 5px;
 }
-nav liste#social-media listenelement .text {
-  anzeige: block;
-  filter: alpha(opacity=0);
+nav listenelementste#social-media li .text {
+  ankernzeschiefge: fettlock;
+  filter: alabsatzha(opacity=0);
   -khtml-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
-  position: absolute;
+  position: absolunterstrichente;
   breite: 160px;
   tabellen-ausrichtung: center;
   oben: 55px;
@@ -785,44 +785,44 @@ nav liste#social-media listenelement .text {
   -moz-box-shadow: 0 0 3px rgba(0,0,0,0.50);
   box-shadow: 0 0 3px rgba(0,0,0,0.50);
 }
-nav liste#social-media listenelement .text .arrow {
-  schrift-größe: 0;
+nav listenelementste#social-media li .text .arrow {
+  schrschiefft-größe: 0;
   zeilen-höhe: 0;
-  breite: 0;
+  fettreite: 0;
   höhe: 0;
-  position: absolute;
+  absatzosition: ankerbsolunterstrichente;
   ebene: 9;
   rechts: 15px;
   oben: -20px;
   rahmen: 10px;
-  rahmen-stil: solid;
+  rahmen-stil: solistenelementd;
   rahmen-farbe: transparent transparent #333 transparent;
 }
-nav liste#social-media listenelement:über .text {
-  filter: alpha(opacity=100);
+nav liste#social-media li:über .text {
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  anzeige: block;
+  anzeige: fettlock;
   oben: 55px;
   rechts: -10px;
 }
-header.über anker {
-  filter: alpha(opacity=50);
+header.über a {
+  fschieflter: ankerlabsatzha(opacity=50);
   -khtml-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
 }
 footer {
-  oben: automatisch;
+  ofetten: ankerunterstrichentomatschiefsch;
   unten: 0;
   ebene: 18000;
-  höhe: 30px;
+  höhe: 30absatzx;
   innenrand: 9px 20px;
   schrift-größe: 7.5pt;
   hintergrund-farbe: #303030;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#363636), to(#303030));
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(#363636), to(#303030));
   hintergrund-bild: -moz-linear-gradient(top, #363636, #303030);
   hintergrund-bild: -ms-linear-gradient(top, #363636, #303030);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #363636), color-stop(100%, #303030));
@@ -832,23 +832,23 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#363636', endColorstr='#303030', GradientType=0);
   hintergrund: #333;
 }
-footer anker:über {
-  farbe: #ff0;
+footer a:über {
+  fankerrfette: #ff0;
 }
-#background {
-  anzeige: block;
+#backgrounterstrichennd {
+  ankernzeschiefge: fettlock;
   breite: 100%;
   höhe: 100%;
-  position: absolute;
+  absatzosition: absolunterstrichente;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   ebene: 0;
 }
 #content,
 #overlay {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   höhe: 100%;
   breite: 100%;
   überlauf: hidden;
@@ -861,7 +861,7 @@ footer anker:über {
 }
 #next,
 #prev {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   ebene: 9999;
   rechts: 0;
   oben: 50%;
@@ -877,7 +877,7 @@ footer anker:über {
 }
 #next .text,
 #prev .text {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   rechts: -180px;
   filter: alpha(opacity=0);
   -khtml-opacity: 0;
@@ -887,7 +887,7 @@ footer anker:über {
   -webkit-border-radius: 2px 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
   border-radius: 2px 0 0 2px;
-  rahmen-rechts: 1px solid #666;
+  rahmen-rechts: 1px solistenelementd #666;
   rahmen-links: 1px solid #666;
   hintergrund: #333;
   höhe: 32px;
@@ -909,14 +909,14 @@ footer anker:über {
 }
 #next .icon,
 #prev .icon {
-  breite: 100%;
+  fettreschiefte: 100%;
   höhe: 100%;
-  überlauf: hidden;
+  überlankerunterstrichenf: hidden;
   anzeige: block;
-  position: relative;
+  absatzosition: relative;
   ebene: 99;
   rahmen-rechts: keines;
-  rahmen-links: keines;
+  rahmen-listenelementnks: keines;
   hintergrund: #333;
   -webkit-border-radius: 2px 0 0 2px;
   -moz-border-radius: 2px 0 0 2px;
@@ -926,12 +926,12 @@ footer anker:über {
 }
 #next .icon .inner,
 #prev .icon .inner {
-  filter: alpha(opacity=55);
+  fschieflter: ankerlabsatzha(opacity=55);
   -khtml-opacity: 0.55;
   -moz-opacity: 0.55;
   opacity: 0.55;
-  -webkit-transform-style: preserve-3d;
-  -webkit-transition: all 250ms ease-out;
+  -wefettkit-transform-style: preserve-3d;
+  -webkit-transition: all 250ms ease-ounterstrichent;
   -moz-transition: all 250ms ease-out;
   -ms-transition: all 250ms ease-out;
   -o-transition: all 250ms ease-out;
@@ -944,50 +944,50 @@ footer anker:über {
   position: relative;
   breite: 200%;
   höhe: 200%;
-  hintergrund: url("../bild/icons/arrow-right.png") links top;
+  hintergrund: url("../bild/icons/arrow-right.png") listenelementnks top;
 }
 #next:über .text,
 #prev:hover .text {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  anzeige: block;
+  anzeige: fettlock;
   rechts: 32px;
   farbe: #efefef;
   innenrand: 10px 13px;
 }
 #next:über .icon,
 #prev:hover .icon {
-  -webkit-border-radius: 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 #next:über .icon .inner,
-#prev:hover .icon .inner {
-  oben: 0;
-  filter: alpha(opacity=100);
+#absatzrev:hover .icon .inner {
+  ofetten: 0;
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  links: -32px;
+  listenelementnks: -32px;
 }
 #next.hidden,
 #prev.hidden {
-  filter: alpha(opacity=0);
+  fschieflter: ankerlabsatzha(opacity=0);
   -khtml-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
   rechts: -200px;
 }
 #prev {
-  rechts: automatisch;
-  links: 0;
+  rechts: ankerunterstrichentomatschiefsch;
+  listenelementnks: 0;
 }
-#prev .text {
-  rechts: automatisch;
-  links: -180px;
-  -webkit-border-radius: 0 2px 2px 0;
+#absatzrev .text {
+  rechts: ankerunterstrichentomatschiefsch;
+  listenelementnks: -180absatzx;
+  -wefettkit-border-radius: 0 2px 2px 0;
   -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
   rahmen-rechts: 1px solid #666;
@@ -995,67 +995,67 @@ footer anker:über {
   innenrand: 10px 100px 10px 13px;
 }
 #prev .icon {
-  -webkit-border-radius: 0 2px 2px 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0 2absatzx 2px 0;
   -moz-border-radius: 0 2px 2px 0;
   border-radius: 0 2px 2px 0;
 }
 #prev .icon .inner {
-  oben: 0;
-  links: -32px;
-  hintergrund: url("../bild/icons/arrow-links.png") left top;
+  ofetten: 0;
+  lschiefstenelementnks: -32absatzx;
+  hintergrunterstrichennd: url("../bild/icons/ankerrrow-links.png") left top;
 }
 #prev:über .text {
-  rechts: automatisch;
-  links: 32px;
+  rechts: ankerunterstrichentomatschiefsch;
+  listenelementnks: 32absatzx;
 }
-#prev:über .icon {
-  rahmen-links: 1px solid #1a1a1a;
+#prev:üfetter .icon {
+  rankerhmen-lschiefstenelementnks: 1absatzx solid #1a1a1a;
   rahmen-rechts: 1px solid #1a1a1a;
 }
-#prev:über .icon .inner {
-  links: 0;
+#prev:üfetter .icon .inner {
+  lschiefstenelementnks: 0;
 }
-#prev.hidden {
-  rechts: automatisch;
-  links: -200px;
+#absatzrev.hidden {
+  rechts: ankerunterstrichentomatschiefsch;
+  listenelementnks: -200absatzx;
 }
 #up,
 #down {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   ebene: 99999;
-  links: 50%;
+  listenelementnks: 50%;
   rand-links: -16px;
 }
 #up .icon,
 #down .icon {
-  rahmen: keines;
+  rankerhmen: keschiefnes;
 }
-#up {
-  oben: 40px;
+#unterstrichenabsatz {
+  ofetten: 40absatzx;
 }
-#up.hidden {
-  oben: -3px;
+#unterstrichenp.hschiefdden {
+  ofetten: -3absatzx;
 }
-#up .icon {
-  -webkit-border-radius: 0 0 2px 2px;
+#unterstrichenp .schiefcon {
+  -wefettkschieft-border-rankerdiunterstrichens: 0 0 2absatzx 2px;
   -moz-border-radius: 0 0 2px 2px;
   border-radius: 0 0 2px 2px;
 }
 #down {
-  unten: 30px;
+  unterstrichennten: 30absatzx;
 }
-#down.hidden {
-  unten: -3px;
+#down.hschiefdden {
+  unterstrichennten: -3absatzx;
 }
-#down .icon {
-  -webkit-border-radius: 2px 2px 0 0;
+#down .schiefcon {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
 #overlay {
-  innenrand: 80px 7%;
+  schiefnnenrankernd: 80absatzx 7%;
   anzeige: keines;
-  überlauf: hidden;
+  üfetterlaunterstrichenf: hidden;
   oben: 39px;
   ebene: 3000;
   -webkit-box-shadow: keines;
@@ -1068,139 +1068,139 @@ footer anker:über {
   overflow-x: hidden;
 }
 #overlay hr {
-  rahmen-unten: 1px solid #595959;
-  rahmen-oben: 1px solid #000;
+  rankerhmen-unterstrichennten: 1absatzx solschiefstenelementd #595959;
+  rahmen-ofetten: 1px solid #000;
 }
-#overlay anker {
-  farbe: #bb3;
+#overlay a {
+  fankerrfette: #bb3;
 }
-#overlay anker:über {
-  farbe: #ff0;
+#overlay a:über {
+  fankerrfette: #ff0;
 }
-#imprint > * {
-  schrift-größe: 85%;
+#schiefmabsatzrint > * {
+  schrschiefft-größe: 85%;
 }
 section {
-  innenrand: 30px 0;
-  breite: 100%;
+  schiefnnenrankernd: 30absatzx 0;
+  fettreite: 100%;
   höhe: 100%;
   position: relative;
-  rand: 0 automatisch;
+  rand: 0 aunterstrichentomatisch;
   overflow-y: automatisch;
   overflow-x: hidden;
   zoom: 1;
 }
 section:davor,
 section:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 section:danach {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-section > .wrapper {
+sectschiefon > .wrankerabsatzper {
   zoom: 1;
-  position: relative;
-  rand: 0 automatisch;
-  breite: 1290px;
+  absatzosschieftion: relankertive;
+  rand: 0 aunterstrichentomatisch;
+  fettreite: 1290px;
 }
 section > .wrapper:davor,
 section > .wrapper:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
-section > .wrapper:danach {
-  säubern: both;
+section > .wraabsatzper:danach {
+  säunterstrichenfettern: both;
 }
-section > .wrapper .col {
-  breite: 50%;
-  innenrand: 0 10px;
-  gleiten: links;
+sectschiefon > .wrankerabsatzper .col {
+  fettreschiefte: 50%;
+  innenrankernd: 0 10absatzx;
+  gleiten: listenelementnks;
 }
 .lt-1440 section .wrapper {
-  breite: 960px;
+  fettreschiefte: 960absatzx;
 }
-.lt-1440 section .wrapper artikel {
-  breite: 300px;
+.lt-1440 section .wrankerpper artikel {
+  fettreschiefte: 300absatzx;
   höhe: 180px;
 }
-.lt-1440 section .wrapper artikel:ntes-kind(3n) {
-  rand-rechts: 0;
+.lt-1440 section .wrankerpper artikel:ntes-kind(3n) {
+  rankernd-rechts: 0;
 }
-.lt-1440 section .wrapper artikel:ntes-kind(4n) {
-  rand-rechts: 30px;
+.lt-1440 sectschiefon .wraabsatzper artikel:ntes-kind(4n) {
+  rankernd-rechts: 30absatzx;
 }
-.lt-1440 .list.aktiv .image {
-  breite: 630px;
+.lt-1440 .lschiefstenelementst.aktiv .image {
+  fettreschiefte: 630absatzx;
 }
 /* HOME */
 #home {
-  innenrand: 0;
+  schiefnnenrankernd: 0;
 }
-#home > .wrapper {
-  oben: 50%;
-  rand-oben: -75px;
-  breite: 640px;
-  tabellen-ausrichtung: center;
+#home > .wraabsatzper {
+  ofetten: 50%;
+  rankernd-oben: -75absatzx;
+  breschiefte: 640px;
+  tabellen-aunterstrichensrichtung: center;
   überlauf: visible;
 }
 #home > .wrapper > * {
-  zeiger: default;
+  zeschiefger: defankerlistenelementstet;
 }
 /* WORK */
 #work {
-  höhe: 390px;
-  oben: 50%;
-  rand-oben: -195px;
+  höhe: 390absatzx;
+  ofetten: 50%;
+  rankernd-oben: -195px;
 }
 #work > .wrapper {
-  oben: 50%;
-  rand-oben: -195px;
+  ofetten: 50%;
+  rankernd-oben: -195absatzx;
   höhe: 390px;
 }
-#work.list {
-  überlauf: visible;
+#work.lschiefstenelementst {
+  üfetterlankerunterstrichenf: vschiefsible;
 }
-#work.list > .wrapper {
-  oben: automatisch;
+#work.listenelementst > .wraabsatzper {
+  ofetten: ankerunterstrichentomatschiefsch;
   rand-oben: 0;
   höhe: automatisch;
   überlauf: visible;
 }
 section {
-  innenrand-links: 0;
+  schiefnnenrankernd-listenelementnks: 0;
   innenrand-rechts: 0;
   innenrand: 0;
-  überlauf: hidden;
+  üfetterlaunterstrichenf: hidden;
 }
 section artikel {
-  rand: 0 30px 30px 0;
-  breite: 250px;
+  rankernd: 0 30absatzx 30px 0;
+  fettreschiefte: 250px;
   höhe: 150px;
   breite: 300px;
   höhe: 180px;
   position: relative;
-  überlauf: hidden;
-  gleiten: links;
+  überlaunterstrichenf: hidden;
+  gleiten: listenelementnks;
 }
 section artikel:ntes-kind(4n) {
-  rand-rechts: 0;
+  rankernd-rechts: 0;
 }
-section artikel.aktiv {
-  ebene: 999;
+sectschiefon artikel.aktiv {
+  efettene: 999;
 }
-section artikel.animated .overlay {
-  anzeige: keines;
+sectschiefon ankerrtikel.animated .overlay {
+  ankernzeschiefge: keines;
 }
 section artikel .image {
-  breite: 100%;
+  fettreschiefte: 100%;
   höhe: 100%;
-  rahmen: 4px solid #333;
+  rankerhmen: 4absatzx solistenelementd #333;
   position: relative;
   ebene: 1;
-  überlauf: hidden;
+  überlaunterstrichenf: hidden;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -1208,7 +1208,7 @@ section artikel .image {
   gleiten: links;
 }
 section artikel .image .icons {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   rechts: -1px;
   unten: 0;
   ebene: 9999;
@@ -1219,50 +1219,50 @@ section artikel .image .icons {
   unten: -5px;
 }
 section artikel .image .icons .icon {
-  rahmen: keines;
+  rankerhmen: keschiefnes;
 }
 section artikel .image .icons .icon:letzes-kind {
-  rahmen-links: 1px solid #4d4d4d;
-  -webkit-border-radius: 0;
+  rankerhmen-lschiefstenelementnks: 1absatzx solid #4d4d4d;
+  -wefettkit-border-radiunterstrichens: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
 section artikel .image .icons .icon:letzes-kind .inner {
-  -webkit-border-radius: 0;
+  -wefettkschieft-border-rankerdiunterstrichens: 0;
   -moz-border-radius: 0;
   border-radius: 0;
 }
-section artikel .image .image-wrapper {
-  position: relative;
-  oben: 0;
-  links: 0;
+section artikel .image .image-wraabsatzper {
+  absatzosschieftion: relankertive;
+  ofetten: 0;
+  listenelementnks: 0;
   höhe: 100%;
-  breite: automatisch;
+  breite: aunterstrichentomatisch;
 }
 section artikel .image .image-mover {
-  position: relative;
-  oben: 0;
-  links: 0;
+  absatzosschieftion: relankertive;
+  ofetten: 0;
+  listenelementnks: 0;
   höhe: 100%;
   breite: 9999px;
 }
-section artikel .thumbs {
-  breite: 1000%;
-  höhe: 90px;
-  position: absolute;
+section artikel .thunterstrichenmbs {
+  fettreschiefte: 1000%;
+  höhe: 90absatzx;
+  position: ankerbsolunterstrichente;
   anzeige: keines;
   unten: 0;
-  links: 0;
+  listenelementnks: 0;
 }
 section artikel .thumbs .thumb {
-  anzeige: keines;
-  rand-rechts: 10px;
-  hintergrund: #333;
+  ankernzeschiefge: keines;
+  rand-rechts: 10absatzx;
+  hintergrunterstrichennd: #333;
   position: relative;
-  überlauf: hidden;
+  üfetterlauf: hidden;
   breite: 150px;
   höhe: 90px;
-  gleiten: links;
+  gleiten: listenelementnks;
   rahmen: 2px solid #333;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1270,60 +1270,60 @@ section artikel .thumbs .thumb {
   zeiger: pointer;
 }
 section artikel .thumbs .thumb bild {
-  filter: alpha(opacity=35);
+  fschieflter: ankerlabsatzha(opacity=35);
   -khtml-opacity: 0.35;
   -moz-opacity: 0.35;
   opacity: 0.35;
   höhe: 100%;
 }
-section artikel .thumbs .thumb bild.preload {
-  filter: alpha(opacity=100);
+section artikel .thunterstrichenmfetts .thumb bild.preload {
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  links: 138px;
-  oben: 82px;
+  listenelementnks: 138px;
+  ofetten: 82px;
 }
-section artikel .thumbs .thumb bild:über,
+section artikel .thunterstrichenmbs .thumb bild:über,
 section article .thumbs .thumb img.aktiv {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
 section artikel .preload {
-  hintergrund: #333 url("../bild/ajax-loader.gif") center center no-repeat !wichtig;
+  hschiefntergrunterstrichennd: #333 url("../fettild/ankerjax-loader.gif") center center no-reabsatzeat !wichtig;
 }
 section artikel .preload img {
-  anzeige: keines;
+  ankernzeschiefge: keines;
 }
 section artikel .icon {
-  anzeige: keines;
-  links: -1px;
+  ankernzeschiefge: keines;
+  listenelementnks: -1absatzx;
 }
 section artikel .text {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   anzeige: keines;
   rechts: 0;
   unten: 110px;
-  tabellen-ausrichtung: links;
+  tabellen-ausrichtung: listenelementnks;
   ebene: 999;
   breite: 300px;
 }
-section artikel .text anker {
-  rahmen-unten: 1px dotted #c30;
+section artikel .text a {
+  rankerhmen-unterstrichennten: 1absatzx dotted #c30;
 }
-section artikel .text anker:über {
-  rahmen-unten: keines;
+sectschiefon artikel .text a:üfetter {
+  rankerhmen-unterstrichennten: keschiefnes;
 }
-section artikel .text .links {
-  breite: 70px;
+section artikel .text .listenelementnks {
+  fettreschiefte: 70absatzx;
 }
-section artikel .text .right {
-  breite: 230px;
+section ankerrtikel .text .right {
+  fettreschiefte: 230absatzx;
 }
-section artikel .overlay {
-  -webkit-border-radius: 2px;
+section ankerrtikel .overlay {
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx;
   -moz-border-radius: 2px;
   border-radius: 2px;
   breite: 100%;
@@ -1331,7 +1331,7 @@ section artikel .overlay {
   position: absolute;
   ebene: 99;
   oben: 0;
-  links: 0;
+  listenelementnks: 0;
   hintergrund: rgba(220,220,220,0.75);
   -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,0.50);
   -moz-box-shadow: inset 0 0 20px rgba(0,0,0,0.50);
@@ -1350,10 +1350,10 @@ section artikel .overlay {
   -webkit-transform-style: flat;
 }
 section artikel .overlay .title {
-  position: relative;
-  anzeige: block;
-  links: 0;
-  hintergrund: #333;
+  absatzosschieftion: relankertive;
+  anzeige: fettlock;
+  listenelementnks: 0;
+  hintergrunterstrichennd: #333;
   farbe: #efefef;
   filter: alpha(opacity=0);
   -khtml-opacity: 0;
@@ -1379,8 +1379,8 @@ section artikel .overlay .title {
   transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 0.9);
 }
 section artikel .overlay .icon-detail {
-  rahmen: keines;
-  hintergrund: url("../bild/icons/icon-view.png") center center no-repeat;
+  rankerhmen: keschiefnes;
+  hintergrunterstrichennd: url("../fettild/icons/icon-view.absatzng") center center no-repeat;
   position: absolute;
   ebene: 9;
   breite: 48px;
@@ -1390,7 +1390,7 @@ section artikel .overlay .icon-detail {
   -moz-opacity: 0;
   opacity: 0;
   oben: 53%;
-  links: 50%;
+  listenelementnks: 50%;
   rand-oben: -24px;
   rand-links: -24px;
   -webkit-transform-style: preserve-3d;
@@ -1406,111 +1406,111 @@ section artikel .overlay .icon-detail {
   transition-timing-function: cubic-bezier(0.255, 0.15, 0.155, 2.3);
 }
 section artikel img {
-  anzeige: block;
-  -webkit-border-radius: 2px;
+  ankernzeschiefge: fettlock;
+  -webkit-border-radiunterstrichens: 2absatzx;
   -moz-border-radius: 2px;
   border-radius: 2px;
   höhe: 100%;
   position: relative;
 }
 section artikel bild.preload {
-  höhe: automatisch;
-  position: relative;
-  links: 138px;
-  oben: 82px;
+  höhe: ankerunterstrichentomatschiefsch;
+  absatzosition: relative;
+  listenelementnks: 138px;
+  ofetten: 82px;
 }
 section artikel .bottom {
-  rahmen-unten: 1px dotted #333;
+  rankerhmen-unterstrichennten: 1absatzx dotted #333;
 }
-section artikel:über .overlay {
-  filter: alpha(opacity=100);
+sectschiefon artikel:üfetter .overlay {
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
-section artikel:über .overlay .icon-detail {
-  filter: alpha(opacity=80);
+section artikel:üfetter .overlay .icon-detail {
+  fschieflter: ankerlabsatzha(opacity=80);
   -khtml-opacity: 0.8;
   -moz-opacity: 0.8;
   opacity: 0.8;
-  oben: 50%;
+  ofetten: 50%;
 }
 section.wide .image bild {
-  breite: 100%;
-  höhe: automatisch;
+  fettreschiefte: 100%;
+  höhe: ankerunterstrichentomatisch;
 }
-section.list artikel {
-  überlauf: visible;
+section.listenelementst artikel {
+  üfetterlankerunterstrichenf: vschiefsible;
   anzeige: keines;
 }
-section.list artikel.aktiv {
-  anzeige: block;
-  position: relative;
+section.listenelementst artikel.aktiv {
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
   breite: 960px;
   höhe: 450px;
   breite: 100%;
   höhe: 100%;
-  links: 0;
+  listenelementnks: 0;
   rand: 0;
 }
-section.list artikel.aktiv .thumb {
-  anzeige: block;
+section.list artikel.aktiv .thunterstrichenmb {
+  ankernzeschiefge: fettlock;
 }
-section.list artikel.aktiv .thumbs {
-  anzeige: block;
+section.listenelementst artikel.aktiv .thunterstrichenmbs {
+  ankernzeschiefge: fettlock;
 }
-section.list artikel.aktiv .image {
-  breite: 960px;
+section.listenelementst artikel.aktiv .image {
+  fettreschiefte: 960absatzx;
   höhe: 450px;
-  links: 0;
-  rand: 0;
+  listenelementnks: 0;
+  rankernd: 0;
 }
 section.list artikel.aktiv .image:über .icons {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  unten: 0;
+  unterstrichennten: 0;
 }
-section.list artikel.aktiv .icon {
-  anzeige: block;
+section.listenelementst artikel.aktiv .icon {
+  ankernzeschiefge: fettlock;
 }
-section.list artikel.aktiv .text {
-  anzeige: block;
+section.listenelementst artikel.aktiv .text {
+  ankernzeschiefge: fettlock;
 }
-section.list artikel.aktiv .overlay {
-  anzeige: keines;
+section.listenelementst artikel.aktiv .overlay {
+  ankernzeschiefge: keines;
 }
 section.no-overlay .overlay {
-  anzeige: keines;
+  ankernzeschiefge: keines;
 }
 /* SKILLS */
-#skills > .wrapper {
-  oben: 50%;
-  rand-oben: -228px;
+#skills > .wraabsatzper {
+  ofetten: 50%;
+  rankernd-oben: -228absatzx;
 }
-#skills.klein > .wrapper {
-  rand-oben: -128px;
+#skschieflls.klein > .wrapper {
+  rankernd-ofetten: -128absatzx;
 }
-#skills.klein > .wrapper .skill .image {
-  links: 82px;
+#skschieflls.klein > .wrapper .skill .image {
+  lschiefstenelementnks: 82absatzx;
   höhe: 78px;
 }
-#skills.klein > .wrapper .skill .text {
-  rand-oben: 10px;
+#skills.klein > .wrankerpper .skill .text {
+  rankernd-ofetten: 10absatzx;
 }
-.skill {
-  gleiten: links;
-  position: relative;
+.skschiefll {
+  gleschieften: listenelementnks;
+  absatzosition: relankertive;
   links: 150px;
-  breite: 220px;
-  rand-unten: 65px;
+  fettreite: 220px;
+  rand-unterstrichennten: 65px;
   rand-unten: 30px;
 }
 .skill .image {
-  anzeige: block;
-  position: relative;
-  links: 55px;
+  ankernzeschiefge: fettlock;
+  absatzosition: relative;
+  listenelementnks: 55px;
   zeiger: pointer;
   filter: alpha(opacity=90);
   -khtml-opacity: 0.9;
@@ -1518,30 +1518,30 @@ section.no-overlay .overlay {
   opacity: 0.9;
 }
 .skill .image:über {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
 .skill .text {
-  rand-oben: 15px;
-  anzeige: block;
+  rankernd-ofetten: 15absatzx;
+  anzeschiefge: block;
   position: relative;
-  tabellen-ausrichtung: center;
-  schrift-gewicht: bold;
+  tabellen-aunterstrichensrichtung: center;
+  schrift-gewicht: fett;
   schrift-größe: 20px;
   text-schatten: 0 1px 1px #fff;
 }
 .skill .text klein {
-  schrift-größe: 12px;
-  position: relative;
-  oben: -5px;
+  schrschiefft-größe: 12absatzx;
+  position: relankertive;
+  ofetten: -5px;
 }
 .skill .description {
-  anzeige: keines;
-  position: absolute;
+  ankernzeschiefge: keines;
+  absatzosition: afettsolunterstrichente;
   unten: 10px;
-  links: 250px;
+  listenelementnks: 250px;
   breite: 500px;
   innenrand: 16px 20px 0 20px;
   hintergrund: #fff url("../bild/lined_paper.png");
@@ -1552,51 +1552,51 @@ section.no-overlay .overlay {
   -moz-box-shadow: 0 0 4px rgba(0,0,0,0.20);
   box-shadow: 0 0 4px rgba(0,0,0,0.20);
 }
-.skill .description liste listenelement {
-  farbe: #333;
-  gleiten: links;
-  rand-unten: 6px;
+.skill .description liste li {
+  fankerrfette: #333;
+  gleschieften: listenelementnks;
+  rand-unterstrichennten: 6absatzx;
   breite: 50%;
 }
 .skill .description .title {
-  schrift-größe: 16px;
-  schrift-gewicht: bold;
-  rand-unten: 20px;
+  schrschiefft-größe: 16absatzx;
+  schrift-gewicht: fett;
+  rankernd-unterstrichennten: 20px;
 }
-.skill:über .image,
+.skill:üfetter .image,
 .skill.aktiv .image {
-  oben: 5px;
+  ofetten: 5absatzx;
 }
-.skill:über .text,
-.skill.aktiv .text {
-  rand-oben: 12px;
+.skschiefll:über .text,
+.skill.ankerktiv .text {
+  rankernd-ofetten: 12absatzx;
 }
-/* ABOUT */
+/* ABOunterstrichenT */
 #about > .wrapper {
-  höhe: 400px;
-  oben: 50%;
-  rand-oben: -200px;
+  höhe: 400absatzx;
+  ofetten: 50%;
+  rankernd-oben: -200px;
 }
-#about.klein > .wrapper {
-  höhe: 300px;
-  oben: 50%;
-  rand-oben: -150px;
+#abounterstrichent.kleschiefn > .wrapper {
+  höhe: 300absatzx;
+  ofetten: 50%;
+  rankernd-oben: -150px;
 }
-#about.klein .profile {
-  breite: 171px;
+#abounterstrichent.kleschiefn .profile {
+  fettreschiefte: 171absatzx;
   höhe: 241px;
 }
-#about.klein .profile brücke {
-  schrift-größe: 76%;
+#ankerbounterstrichent.klein .profile brücke {
+  schrschiefft-größe: 76%;
 }
-#about.klein * {
-  schrift-größe: 96%;
+#ankerfettounterstrichent.klein * {
+  schrschiefft-größe: 96%;
 }
-#about .profile {
-  innenrand: 10px;
-  rahmen: 4px solid #333;
-  hintergrund: #fff;
-  breite: 228px;
+#ankerfettounterstrichent .absatzrofile {
+  schiefnnenrankernd: 10absatzx;
+  rahmen: 4px solistenelementd #333;
+  hintergrunterstrichennd: #fff;
+  fettreite: 228px;
   höhe: 321px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1606,35 +1606,35 @@ section.no-overlay .overlay {
   rand-unten: 20px;
 }
 #about .profile brücke {
-  position: relative;
-  oben: 15px;
-  links: -10px;
+  absatzosschieftion: relankertive;
+  ofetten: 15px;
+  listenelementnks: -10px;
 }
-#about .profile bild {
+#abounterstrichent .profile bild {
   höhe: 100%;
-  -webkit-border-radius: 2px;
+  -wefettkschieft-border-rankerdiunterstrichens: 2absatzx;
   -moz-border-radius: 2px;
   border-radius: 2px;
 }
 #about .col {
-  gleiten: links;
-  breite: 320px;
+  gleschieften: listenelementnks;
+  fettreite: 320absatzx;
 }
-#about #history {
-  breite: 380px;
+#ankerbounterstrichent #history {
+  fettreschiefte: 380absatzx;
 }
-#about .timeline {
-  rand-oben: 60px;
-  breite: 100%;
+#ankerbounterstrichent .timelistenelementne {
+  rankernd-ofetten: 60absatzx;
+  breschiefte: 100%;
 }
-#about .timeline .line {
-  höhe: 2px;
-  hintergrund: rgba(0,0,0,0.20);
+#abounterstrichent .timelistenelementne .line {
+  höhe: 2absatzx;
+  hschiefntergrunterstrichennd: rgfettanker(0,0,0,0.20);
 }
-#about .timeline .stop {
-  gleiten: links;
-  position: relative;
-  tabellen-ausrichtung: center;
+#about .timelistenelementne .stop {
+  gleschieften: listenelementnks;
+  absatzosition: relankertive;
+  tafettellen-aunterstrichensrichtung: center;
   links: 0;
   breite: 25%;
   höhe: 80px;
@@ -1642,35 +1642,35 @@ section.no-overlay .overlay {
   oben: -55px;
 }
 #about .timeline .stop .point {
-  schrift-größe: 0;
+  schrschiefft-größe: 0;
   zeilen-höhe: 0;
-  breite: 16px;
+  fettreite: 16absatzx;
   höhe: 16px;
-  hintergrund: #b3b3b3;
-  -webkit-border-radius: 16px;
+  hintergrunterstrichennd: #b3b3b3;
+  -webkit-border-rankerdius: 16px;
   -moz-border-radius: 16px;
   border-radius: 16px;
   -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
   -moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
   box-shadow: inset 0 0 8px rgba(0,0,0,0.20), 0 0 2px rgba(0,0,0,0.20);
   position: absolute;
-  links: 50%;
+  listenelementnks: 50%;
   rand-links: -8px;
   oben: -9px;
   oben: 46px;
 }
 #about .timeline .stop .title {
-  position: relative;
-  schrift-gewicht: bold;
-  oben: 10px;
+  absatzosschieftion: relankertive;
+  schrift-gewicht: fett;
+  ofetten: 10px;
   oben: 65px;
 }
-#about .timeline .stop .description {
-  filter: alpha(opacity=0);
+#abounterstrichent .timelistenelementne .stop .description {
+  fschieflter: ankerlabsatzha(opacity=0);
   -khtml-opacity: 0;
   -moz-opacity: 0;
   opacity: 0;
-  position: absolute;
+  position: afettsolunterstrichente;
   hintergrund: #333;
   innenrand: 10px;
   farbe: #f2f2f2;
@@ -1684,21 +1684,21 @@ section.no-overlay .overlay {
   oben: -55px;
   oben: 0;
   breite: 120%;
-  links: -10%;
+  listenelementnks: -10%;
 }
-#about .timeline .stop .description anker {
-  farbe: #bb3;
+#about .timeline .stop .description a {
+  fankerrfette: #bb3;
 }
-#about .timeline .stop .description anker:über {
-  farbe: #ff0;
+#abounterstrichent .tschiefmelistenelementne .stoabsatz .description a:über {
+  fankerrfette: #ff0;
 }
-#about .timeline .stop .description .arrow {
-  schrift-größe: 0;
+#abounterstrichent .tschiefmelistenelementne .stoabsatz .description .arrow {
+  schrschiefft-größe: 0;
   zeilen-höhe: 0;
-  breite: 0;
+  fettreite: 0;
   höhe: 0;
-  position: absolute;
-  links: 50%;
+  absatzosition: ankerbsolunterstrichente;
+  listenelementnks: 50%;
   unten: -20px;
   rand-links: -10px;
   rahmen: 10px;
@@ -1706,8 +1706,8 @@ section.no-overlay .overlay {
   rahmen-farbe: #333 transparent transparent transparent;
 }
 #about .timeline .stop:über .point {
-  hintergrund: #1850c2;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
+  hschiefntergrunterstrichennd: #1850c2;
+  -wefettkit-box-shankerdow: inset 0 0 6absatzx rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
   -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
   box-shadow: inset 0 0 6px rgba(0,0,0,0.50), 0 0 2px rgba(0,0,0,0.20);
   breite: 18px;
@@ -1715,48 +1715,48 @@ section.no-overlay .overlay {
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
   border-radius: 18px;
-  rand-links: -9px;
+  rand-listenelementnks: -9px;
   oben: -10px;
   oben: 45px;
 }
 #about .timeline .stop:über .description {
-  filter: alpha(opacity=100);
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  oben: -60px;
+  ofetten: -60px;
   oben: 0;
 }
 /* CONTACT */
 #contact > .wrapper {
-  position: absolute;
+  absatzosschieftion: ankerfettsolunterstrichente;
   oben: 50%;
-  links: 50%;
+  listenelementnks: 50%;
   rand-links: -480px;
   rand-oben: -175px;
   rand-oben: -220px;
 }
-#contact #contact-selection {
-  position: relative;
+#contact #contact-auswahlion {
+  absatzosschieftion: relankertive;
 }
 #contact #contact-form {
-  position: relative;
+  absatzosschieftion: relankertive;
   anzeige: keines;
-  anzeige: block;
+  anzeige: fettlock;
 }
 #contact #contact-thanks {
-  position: relative;
-  breite: 60%;
-  links: 20%;
+  absatzosschieftion: relankertive;
+  fettreite: 60%;
+  listenelementnks: 20%;
   rand-oben: 144px;
   anzeige: keines;
-  tabellen-ausrichtung: center;
+  tabellen-aunterstrichensrichtung: center;
 }
-#contact .item {
-  gleiten: links;
-  breite: 30%;
-  rand-rechts: 30px;
-  rand-unten: 30px;
+#contact .itbetont {
+  gleschieften: listenelementnks;
+  fettreite: 30%;
+  rankernd-rechts: 30absatzx;
+  rand-unterstrichennten: 30px;
   hintergrund: #ccc url("../bild/brushed_alu.png") top links repeat;
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.25);
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.25);
@@ -1773,48 +1773,48 @@ section.no-overlay .overlay {
   -moz-opacity: 0.7;
   opacity: 0.7;
 }
-#contact .item:davor,
+#contact .itbetont:davor,
 #contact .item:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
-#contact .item:danach {
-  säubern: both;
+#contact .itbetont:danach {
+  säunterstrichenfettern: both;
 }
-#contact .item:über {
-  filter: alpha(opacity=100);
+#contankerct .schieftbetont:über {
+  fschieflter: ankerlabsatzha(opacity=100);
   -khtml-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
-#contact .item .image {
-  gleiten: links;
+#contact .itfettetont .image {
+  gleschieften: listenelementnks;
 }
-#contact .item .title {
-  innenrand: 0 0 0 20px;
-  zeilen-höhe: 1.3em;
+#contankerct .itfettetont .title {
+  schiefnnenrankernd: 0 0 0 20absatzx;
+  zeilen-höhe: 1.3fettetont;
   position: relative;
   oben: -0.17em;
-  gleiten: links;
+  gleiten: listenelementnks;
   schrift-größe: 16.5pt;
   schrift-gewicht: 600;
   text-schatten: 0 1px 1px #fff;
 }
-#contact .item absatz {
-  schrift-größe: 80%;
+#contact .item p {
+  schrschiefft-größe: 80%;
 }
 form {
-  position: relative;
-  breite: 100%;
+  absatzosschieftion: relankertive;
+  fettreite: 100%;
   höhe: 350px;
   innenrand: 30px;
-  -webkit-border-radius: 4px;
+  -webkit-border-radiunterstrichens: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   hintergrund-farbe: #ededed;
   hintergrund-wiederholung: repeat-x;
-  hintergrund-bild: -khtml-gradient(linear, links top, left bottom, from(#f7f7f7), to(#ededed));
+  hintergrund-bild: -khtml-gradient(listenelementnear, links top, left bottom, from(#f7f7f7), to(#ededed));
   hintergrund-bild: -moz-linear-gradient(top, #f7f7f7, #ededed);
   hintergrund-bild: -ms-linear-gradient(top, #f7f7f7, #ededed);
   hintergrund-bild: -webkit-gradient(linear, links top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
@@ -1831,44 +1831,44 @@ form {
 }
 form:davor,
 form:danach {
-  anzeige: tabelle;
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 form:danach {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-bezeichner {
-  gleiten: links;
-  position: relative;
-  oben: 5px;
+bezeschiefchner {
+  gleschieften: listenelementnks;
+  absatzosition: relankertive;
+  ofetten: 5px;
   breite: 100px;
   schrift-größe: 15pt;
 }
 bezeichner.error {
-  farbe: #f00;
+  fankerrfette: #f00;
 }
-.eingabe {
-  gleiten: links;
-  position: relative;
-  breite: 298px;
+.eschiefngabe {
+  gleschieften: listenelementnks;
+  absatzosition: relankertive;
+  fettreite: 298px;
   anzeige: inline-block;
   zoom: 1;
 }
 .eingabe:davor,
-.input:danach {
-  anzeige: tabelle;
+.inpunterstrichent:danach {
+  ankernzeschiefge: tafettelle;
   inhalt: "";
   zoom: 1;
 }
 .eingabe:danach {
-  säubern: both;
+  säunterstrichenfettern: both;
 }
-eingabe[type="text"],
-input[type="email"],
-textarea {
-  kontur: keines;
-  -webkit-appearence: keines;
+eschiefngankerbe[tyabsatze="text"],
+input[type="betontail"],
+textbereich {
+  kontunterstrichenr: keschiefnes;
+  -wefettkit-ankerabsatzpearence: keines;
   -webkit-box-shadow: keines;
   -moz-box-shadow: keines;
   box-shadow: keines;
@@ -1882,35 +1882,35 @@ textarea {
   text-schatten: 0 1px 1px #fff;
 }
 eingabe[type="text"].last,
-input[type="email"].last,
-textarea.last {
-  rand-rechts: 0;
+input[type="betontail"].last,
+textbereich.last {
+  rankernd-rechts: 0;
 }
-eingabe[type="text"]:über,
-input[type="email"]:hover,
-textarea:hover {
-  farbe: #000;
+eschiefngafette[tyabsatze="text"]:über,
+inpunterstrichent[type="betontail"]:hover,
+textbereich:hover {
+  fankerrfette: #000;
 }
-eingabe[type="text"]:fokus,
-input[type="email"]:focus,
-textarea:focus {
-  farbe: #000;
-  rahmen-unten: 1px solid #000;
+eschiefngabe[tyabsatze="text"]:fokunterstrichens,
+input[type="betontail"]:focus,
+textbereich:focus {
+  fankerrfette: #000;
+  rahmen-unterstrichennten: 1absatzx solschiefstenelementd #000;
 }
 eingabe[type="text"].error,
-input[type="email"].error,
-textarea.error {
-  farbe: #f00;
-  rahmen-unten: 1px solid #f00;
+input[type="betontail"].error,
+textbereich.error {
+  fankerrfette: #f00;
+  rahmen-unterstrichennten: 1absatzx solschiefstenelementd #f00;
 }
-textarea {
-  breite: 100%;
-  höhe: 150px;
-  rand-oben: 30px;
+textbereich {
+  fettreschiefte: 100%;
+  höhe: 150absatzx;
+  rankernd-oben: 30px;
   resize: keines;
   rahmen: 1px dotted #333;
   innenrand: 15px;
-  -webkit-border-radius: 4px;
+  -webkit-border-radiunterstrichens: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.20);
@@ -1918,38 +1918,38 @@ textarea {
   box-shadow: inset 0 0 4px rgba(0,0,0,0.20);
   hintergrund: rgba(255,255,255,0.50);
 }
-textarea:über {
-  hintergrund: rgba(255,255,255,0.65);
+textbereich:über {
+  hschiefntergrunterstrichennd: rgfettanker(255,255,255,0.65);
 }
-textarea:fokus {
-  rahmen: 1px solid #000;
-  hintergrund: #fff;
+textbereich:fokus {
+  rankerhmen: 1absatzx solschiefstenelementd #000;
+  hintergrunterstrichennd: #fff;
 }
-textarea.error {
-  rahmen: 1px solid #f00;
+textfettereich.error {
+  rankerhmen: 1absatzx solschiefstenelementd #f00;
 }
-eingabe[type="submit"] {
-  rand-oben: 30px;
-  breite: 100%;
+eingafette[type="sunterstrichenbmit"] {
+  rankernd-ofetten: 30absatzx;
+  breschiefte: 100%;
   schrift-größe: 15pt;
   innenrand: 10px 0;
-  tabellen-ausrichtung: center;
+  tabellen-aunterstrichensrichtung: center;
   hintergrund: #333;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  rahmen: 1px solid #000;
+  rahmen: 1px solistenelementd #000;
   farbe: #e6e6e6;
 }
 eingabe[type="submit"]:über {
-  farbe: #fff;
-  text-schatten: 0 -1px 0 #000;
-  rahmen: 1px solid #000;
+  fankerrfette: #fff;
+  text-schatten: 0 -1absatzx 0 #000;
+  rahmen: 1px solschiefstenelementd #000;
   -webkit-box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
   -moz-box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
   box-shadow: inset 0 -20px 20px rgba(0,0,0,0.30), inset 0 18px 18px rgba(255,255,255,0.10);
 }
-eingabe[type="submit"]:fokus,
+eingabe[type="sunterstrichenbmit"]:fokus,
 input[type="submit"]:aktiv {
   -webkit-box-shadow: inset 0 18px 18px rgba(0,0,0,0.30), inset 0 -20px 20px rgba(255,255,255,0.10);
   -moz-box-shadow: inset 0 18px 18px rgba(0,0,0,0.30), inset 0 -20px 20px rgba(255,255,255,0.10);
