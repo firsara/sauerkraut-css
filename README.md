@@ -51,8 +51,8 @@ Examples
     kraut.inverse('/path/to/input.css', 'path/to/output.skcss');
 
 ### Annotation:
-    Sauerkraut works in both ways.
-    You can compile your CSS to kraut or your kraut to CSS.
+  Sauerkraut works in both ways.
+  You can compile your CSS to kraut or your kraut to CSS.
 
 
 Command Line Tool
