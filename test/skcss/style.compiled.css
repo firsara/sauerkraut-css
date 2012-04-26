@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arial';
+  font-familie: 'Arial';
   font-size: 18px;
 }
 
@@ -10,7 +10,7 @@ article:first-child > h1 {
   padding-left: 2px;
   padding-right: 2px;
   padding-top: 2px;
-  padding: 2px;
+  innenrand: 2px;
 }
 
 body article {
