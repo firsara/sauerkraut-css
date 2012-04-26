@@ -1,6 +1,7 @@
 Sauerkraut CSS
 ==============
 Write CSS like a Sauerkraut.
+<a href="http://sauerkrautcss.org/">http://sauerkrautcss.org/</a>
 
 Explained
 ---------
@@ -10,7 +11,7 @@ It parses skcss files (css written in german) and converts it to the appropriate
 
 Setup
 ------
-### Get the latest stable version:
+### Grab the latest stable version:
 
     npm install sauerkraut
 
