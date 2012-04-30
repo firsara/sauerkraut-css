@@ -47,11 +47,11 @@ var SauerkrautCompiler = exports = module.exports = (function(self){
     data = convert(data);
 
     for (key in lex.properties){
-      data = data.replace(new RegExp('{' + any + "(\\b)" + '(' + convert(lex.properties[key]) + ')' + "(\\b)" + any + ":", 'gi'), '{' + '$1' + '$2' + key + '$4' + '$5:');
+      data = data.replace(new RegExp('{' + any + '(' + convert(lex.properties[key]) + ')' + any + ":", 'gi'), '{' + '$1' + key + '$3' + ':');
     }
 
     for (key in lex.values){
-      data = data.replace(new RegExp(':' + any + "(\\b)" + '(' + convert(lex.values[key]) + ')' + "(\\b)" + any + ";", 'gi'), ':' + '$1' + '$2' + key + '$4' + '$5;');
+      data = data.replace(new RegExp(':' + any + '(' + convert(lex.values[key]) + ')' + any + ";", 'gi'), ':' + '$1' + key + '$3' + ';');
     }
 
     for (key in lex.pseudos){
@@ -59,7 +59,7 @@ var SauerkrautCompiler = exports = module.exports = (function(self){
     }
 
     for (key in lex.tags){
-      data = data.replace(new RegExp('}' + any + "(\\b)" + '(' + convert(lex.tags[key]) + ')' + "(\\b)" + any + "{", 'gi'), '}' + '$1' + '$2' + key + '$4' + '$5{');
+      data = data.replace(new RegExp('}' + any + "(\\b)" + '(' + convert(lex.tags[key]) + ')' + "(\\b)" + any + "([^{])", 'gi'), '}' + '$1' + '$2' + key + '$4' + '$5$6');
     }
 
     return data.substring(1);
