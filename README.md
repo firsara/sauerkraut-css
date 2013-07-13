@@ -1,7 +1,7 @@
 Sauerkraut CSS
 ==============
 Write CSS like a Sauerkraut.
-<a href="http://sauerkrautcss.org/">http://sauerkrautcss.org/</a>
+<a href="http://sauerkrautcss.madebyfibb.com/">http://sauerkrautcss.madebyfibb.com/</a>
 
 Explained
 ---------
